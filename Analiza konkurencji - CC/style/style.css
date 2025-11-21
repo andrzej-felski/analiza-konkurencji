@@ -1,0 +1,270 @@
+body {
+ 		background-color: #262626 !important;
+}
+
+/* Kontenery formularzy */
+#porownywarka, #oferty-konkurencji, #oferty-wlasne, #rekord-generator {
+ 		max-width: 1800px;
+ 		min-height: 300px;
+ 		margin: 60px auto 40px;
+ 		padding: 30px 20px;
+ 		background: #383838;
+ 		color: #fff;
+ 		border-radius: 10px;
+ 		border: 1px solid #e0e0e0;
+ 		box-shadow: 0 0 10px rgba(0,0,0,0.03);
+ 		font-family: 'Arial', sans-serif;
+ 		box-sizing: border-box;
+ 		text-align: center;
+}
+
+/* Formularze - selecty i przyciski */
+#porownywarka select,
+#porownywarka button,
+#oferty-konkurencji select,
+#oferty-konkurencji button,
+#oferty-wlasne select,
+#oferty-wlasne button {
+	padding: 10px 12px;
+	font-size: 16px;
+	margin: 10px auto;
+	width: 90%;
+	max-width: 320px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-sizing: border-box;
+	display: block;
+}
+
+#porownywarka button,
+#oferty-konkurencji button,
+#oferty-wlasne button {
+	background-color: #046cb2;
+	color: white;
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.2s;	
+}
+
+#porownywarka button:hover,
+#oferty-konkurencji button:hover,
+#oferty-wlasne button:hover {
+	background-color: #03609e;
+}
+
+/* Tabele wyników */
+#wynik table,
+#tabelaOfertKonkurencji table,
+#tabelaOfertWlasne table {
+	margin-top: 25px;
+	border-collapse: collapse;
+	width: 100%;
+	table-layout: fixed;
+}
+
+#wynik th, #wynik td,
+#tabelaOfertKonkurencji th, #tabelaOfertKonkurencji td,
+#tabelaOfertWlasne th, #tabelaOfertWlasne td {
+	border: 1px solid #ddd;
+	padding: 12px;
+	text-align: center;
+	width: 16.66%;
+	word-wrap: break-word;
+	font-size: 15px;
+}
+
+#wynik thead,
+#tabelaOfertKonkurencji thead,
+#tabelaOfertWlasne thead {
+	font-weight: bold;
+}
+
+#wynik tr.moja-firma td {
+	background-color: #046cb2;
+	font-weight: bold;
+}
+
+/* Kontener z lewą i prawą kolumną */
+.generator-wrapper {
+	display: flex;
+	gap: 40px;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	height: 100%;
+}
+
+.left-side {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	flex: 1 1 400px;
+	max-width: 600px;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+/* Kontener kroków */
+#step-container {
+	width: 100%;
+}
+
+/* Pojedynczy krok */
+.step {
+	display: none;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+.step.active {
+	display: flex;
+}
+
+.step label {
+	font-weight: bold;
+	margin-bottom: 6px;
+	color: #fff;
+}
+
+.step input[type="text"],
+.step input[type="number"] {
+	padding: 10px 12px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	width: 320px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-sizing: border-box;
+	background: #fff;
+	color: #000;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: textfield;
+}
+
+.step small {
+	color: #ddd;
+	font-size: 0.85em;
+}
+
+/* Ukrycie strzałek w input[type=number] */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	 margin: 0;
+}
+
+input[type=number] {
+	-moz-appearance: textfield;
+}
+
+/* Nawigacja kroków (strzałki pod generatorem) */
+.step-navigation {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	margin-top: -20px;
+	max-width: 320px;
+}
+
+.step-navigation button {
+	background-color: #046cb2;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	padding: 10px 25px;
+	font-size: 16px;
+	border-radius: 10px;
+	transition: background-color 0.2s;
+	min-width: 150px;
+	flex: 1;
+}
+
+.step-navigation button:hover {
+	background-color: #03609e;
+}
+
+/* Prawa kolumna - instrukcja */
+#instrukcja {
+	flex: 1 1 300px;
+	max-width: 540px;
+	background-color: #2c2c2c;
+	padding: 20px;
+	border-radius: 10px;
+	border: 1px solid #555;
+	color: #fff;
+	font-size: 15px;
+	line-height: 1.6;
+	text-align: left;
+}
+
+#instrukcja h3 {
+	margin-top: 0;
+	margin-bottom: 15px;
+	font-size: 20px;
+	border-bottom: 2px solid #046cb2;
+	padding-bottom: 8px;
+	text-align: center;
+}
+
+#instrukcja ul {
+	padding-left: 20px;
+}
+
+#instrukcja ul li {
+	margin-bottom: 10px;
+}
+
+/* Output pod spodem - pełna szerokość kontenera */
+#output {
+	background-color: #262626;
+	padding: 15px;
+	margin: 30px auto 0;
+	color: #fff;
+	border-radius: 8px;
+	border: 1px solid #555;
+	max-width: 70%;
+	min-width: 20px;
+	cursor: pointer;
+	overflow-wrap: break-word;
+	user-select: all;
+	min-height: 50px;
+	box-sizing: border-box;
+	font-size: 16px;
+	text-align: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	white-space: pre-wrap;
+}
+
+/* Przycisk generowania */
+#rekord-generator button,
+.step-navigation button {
+	background-color: #046cb2;
+	color: white;
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.2s;
+	padding: 10px 20px;
+	font-size: 16px;
+	border-radius: 10px;
+}
+
+#rekord-generator button:hover,
+.step-navigation button:hover {
+	background-color: #03609e;
+}
+
+#rekord-generator button {
+	width: 90%;
+	max-width: 320px;
+	margin: 10px auto 42px;
+	display: block;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Analiza konkurencji</title>	
+		<link rel="stylesheet" href="style/style.css">
+	</head>
+	<body>
+		<div id="porownywarka">
+			<h2>Porównaj oferty</h2>
+
+			<label for="firma">Wybierz spółkę:</label>
+			<select id="firma">
+  				<option value="">-- Wybierz spółkę --</option>
+			</select><br><br>
+
+			<label for="usluga">Wybierz usługę:</label><br>
+  			<select id="usluga" disabled>
+    				<option value="">-- Wybierz usługę --</option>
+  			</select><br><br>
+
+  			<label for="oferta">Wybierz ofertę:</label><br>
+  			<select id="oferta" disabled>
+    				<option value="">-- Wybierz ofertę --</option>
+  			</select><br><br>
+
+  			<label for="umowa">Wybierz długość umowy:</label><br>
+  			<select id="umowa" disabled>
+    				<option value="">-- Wybierz umowę --</option>
+  			</select><br><br>
+
+  			<button id="pokazBtn" disabled>Pokaż porównanie</button>
+
+			<button id="sortujBtn" disabled style="display: none;">Sortuj po cenie (od najniższej)</button>
+
+  			<div id="wynik" style="margin-top:20px;"></div>
+		</div>
+
+		<div id="oferty-wlasne">
+  			<h2>Sprawdź nasze oferty</h2>
+
+  			<label for="firmaSelectWlasne">Wybierz spółkę:</label><br>
+  			<select id="firmaSelectWlasne">
+    				<option value="">-- Wybierz spółkę --</option>
+  			</select><br><br>
+
+  			<label for="uslugaSelectWlasne">Wybierz usługę:</label><br>
+  			<select id="uslugaSelectWlasne" disabled>
+    				<option value="">-- Wybierz usługę --</option>
+  			</select><br><br>
+
+			<label for="ofertaWartoscSelectWlasne">Wybierz ofertę:</label><br>
+			<select id="ofertaWartoscSelectWlasne" disabled>
+  				<option value="">Wszystkie oferty</option>
+			</select><br><br>
+
+			<label for="umowaSelectWlasne">Wybierz długość umowy:</label>
+			<select id="umowaSelectWlasne" disabled>
+  				<option value="">Wszystkie umowy</option>
+			</select><br><br>
+
+  			<button id="pokazOfertyWlasne" disabled>Pokaż oferty</button>
+
+  			<div id="tabelaOfertWlasne" style="margin-top:20px;"></div>
+		</div>
+
+		<div id="oferty-konkurencji">
+  			<h2>Sprawdź oferty konkurencji</h2>
+
+  			<label for="firmaSelect">Wybierz firmę:</label><br>
+  			<select id="firmaSelect">
+    				<option value="">-- Wybierz firmę --</option>
+  			</select><br><br>
+
+  			<label for="uslugaSelect">Wybierz usługę:</label><br>
+  			<select id="uslugaSelect">
+    				<option value="">-- Wybierz usługę --</option>
+  			</select><br><br>
+
+			<label for="ofertaWartoscSelect">Wybierz ofertę:</label><br>
+			<select id="ofertaWartoscSelect" disabled>
+  				<option value="">Wszystkie oferty</option>
+			</select><br><br>
+
+			<label for="umowaSelect">Wybierz długość umowy:</label>
+			<select id="umowaSelect" disabled>
+  				<option value="">Wszystkie umowy</option>
+			</select><br><br>
+
+			<button id="pokazOfertyKonkurencji" disabled>Pokaż oferty</button>
+
+  			<div id="tabelaOfertKonkurencji" style="margin-top:20px;"></div>
+		</div>
+
+		<script src="LISTA OFERT.js"></script>
+		<script src="skrypt/Porównaj oferty.js"></script>
+		<script src="skrypt/Sprawdź nasze oferty.js"></script>
+		<script src="skrypt/Sprawdź oferty konkurencji.js"></script>
+	</body>
+</html>
