@@ -3131,6 +3131,14 @@
 				{ firma: "HiSpeed", usluga: "Internet i Telewizja", oferta: "Internet 1 Gb/s + Pakiet Podstawowy (62)", ofertaWartosc: 1000, umowa: "24 miesiące", umowaWartosc: 24, cena: 108.00 },
 
 				
+			// Starlink
+				// Internet światłowodowy
+				{ firma: "Starlink", usluga: "Internet mobilny", oferta: "W DOMU Lite - bez limitu (z ograniczeniami prędkości)", ofertaWartosc: 9999, umowa: "bezterminowa", umowaWartosc: 999, cena: 149.00 },
+				{ firma: "Starlink", usluga: "Internet mobilny", oferta: "W DOMU - bez limitu", ofertaWartosc: 9999, umowa: "bezterminowa", umowaWartosc: 999, cena: 215.00 },
+				{ firma: "Starlink", usluga: "Internet mobilny", oferta: "W DRODZE - 100 GB (po przekroczeniu limitu wolniejsza prędkość)", ofertaWartosc: 100, umowa: "bezterminowa", umowaWartosc: 999, cena: 175.00 },
+				{ firma: "Starlink", usluga: "Internet mobilny", oferta: "W DRODZE - bez limitu", ofertaWartosc: 9999, umowa: "bezterminowa", umowaWartosc: 999, cena: 430.00 },		
+				
+				
 			// Światłowód Inwestycje
 				// Internet światłowodowy
 				{ firma: "(hurtowe) Światłowód Inwestycje", usluga: "Internet światłowodowy", oferta: "(Blok) 300 Mb/s", ofertaWartosc: 300, umowa: "bezterminowa", umowaWartosc: 999, cena: 37.48 },
@@ -3204,14 +3212,14 @@
 
 			// Mapa firm i ich konkurencji
 			const mapaKonkurencji = {
-				"Chopin": ["Orange", "T-Mobile", "Play", "Plus", "Netia", "Vectra", "INEA", "RFC", "plastCOM", "Tygrys.net", "LIMES", "HiSpeed", "Wave", "(hurtowe) Światłowód Inwestycje", "(hurtowe) Polski Światłowód Otwarty"],
-				"Pelmar": ["Orange", "T-Mobile", "Play", "Plus", "Netia", "INEA", "RFC", "JMDI", "GECKONET", "TELKAB", "(hurtowe) Światłowód Inwestycje", "(hurtowe) Polski Światłowód Otwarty"],
-				"Multimedia 2": ["Orange", "T-Mobile", "Play", "Plus", "Netia", "Vectra", "INEA", "RFC", "JMDI", "JPK", "eVolta", "Abaks", "VLMedia", "mBit", "(hurtowe) Światłowód Inwestycje", "(hurtowe) Polski Światłowód Otwarty"],
-				"Multimedia 1 Stargard": ["Orange", "T-Mobile", "Play", "Plus", "Vectra", "INEA", "RFC", "JMDI", "Loonar", "TRIPLEMEDIA", "Sinusnet", "(hurtowe) Światłowód Inwestycje"],
-				"Multimedia 1 Olsztyn": ["Orange", "T-Mobile", "Play", "Plus", "Netia", "Vectra", "INEA", "RFC", "Tsunami", "MATCOM", "Intelly", "IVENDO", "(hurtowe) Światłowód Inwestycje", "(hurtowe) NEXERA", "(hurtowe) Polski Światłowód Otwarty"],
-				"Multimedia 1 Ostróda": ["Orange", "T-Mobile", "Play", "Plus", "Vectra", "INEA", "RFC", "MATCOM", "ELTRONIK", "IWKD", "(hurtowe) Światłowód Inwestycje", "(hurtowe) NEXERA", "(hurtowe) Polski Światłowód Otwarty"],
-				"Multimedia 1 Łowicz": ["Orange", "T-Mobile", "Play", "Plus", "Netia", "Vectra", "INEA", "RFC", "JMDI", "budimpex", "mpcnet", "timplus", "(hurtowe) Światłowód Inwestycje", "(hurtowe) NEXERA"],
-				"Multimedia 1 Kwidzyn": ["Orange", "T-Mobile", "Play", "Plus", "Netia", "Vectra", "INEA", "RFC", "JMDI", "GECKONET", "nortis", "(hurtowe) Światłowód Inwestycje"],
+				"Chopin": ["Orange", "T-Mobile", "Play", "Plus", "Netia", "Vectra", "INEA", "RFC", "plastCOM", "Tygrys.net", "LIMES", "HiSpeed", "Wave", "Starlink", "(hurtowe) Światłowód Inwestycje", "(hurtowe) Polski Światłowód Otwarty"],
+				"Pelmar": ["Orange", "T-Mobile", "Play", "Plus", "Netia", "INEA", "RFC", "JMDI", "GECKONET", "TELKAB", "Starlink", "(hurtowe) Światłowód Inwestycje", "(hurtowe) Polski Światłowód Otwarty"],
+				"Multimedia 2": ["Orange", "T-Mobile", "Play", "Plus", "Netia", "Vectra", "INEA", "RFC", "JMDI", "JPK", "eVolta", "Abaks", "VLMedia", "mBit", "Starlink", "(hurtowe) Światłowód Inwestycje", "(hurtowe) Polski Światłowód Otwarty"],
+				"Multimedia 1 Stargard": ["Orange", "T-Mobile", "Play", "Plus", "Vectra", "INEA", "RFC", "JMDI", "Loonar", "TRIPLEMEDIA", "Sinusnet", "Starlink", "(hurtowe) Światłowód Inwestycje"],
+				"Multimedia 1 Olsztyn": ["Orange", "T-Mobile", "Play", "Plus", "Netia", "Vectra", "INEA", "RFC", "Tsunami", "MATCOM", "Intelly", "IVENDO", "Starlink", "(hurtowe) Światłowód Inwestycje", "(hurtowe) NEXERA", "(hurtowe) Polski Światłowód Otwarty"],
+				"Multimedia 1 Ostróda": ["Orange", "T-Mobile", "Play", "Plus", "Vectra", "INEA", "RFC", "MATCOM", "ELTRONIK", "IWKD", "Starlink", "(hurtowe) Światłowód Inwestycje", "(hurtowe) NEXERA", "(hurtowe) Polski Światłowód Otwarty"],
+				"Multimedia 1 Łowicz": ["Orange", "T-Mobile", "Play", "Plus", "Netia", "Vectra", "INEA", "RFC", "JMDI", "budimpex", "mpcnet", "timplus", "Starlink", "(hurtowe) Światłowód Inwestycje", "(hurtowe) NEXERA"],
+				"Multimedia 1 Kwidzyn": ["Orange", "T-Mobile", "Play", "Plus", "Netia", "Vectra", "INEA", "RFC", "JMDI", "GECKONET", "nortis", "Starlink", "(hurtowe) Światłowód Inwestycje"],
 			};
 
 			// Obsługa wyboru firmy
