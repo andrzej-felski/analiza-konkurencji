@@ -295,6 +295,7 @@
 				justify-content: center;
 				align-items: center;
 				flex-wrap: wrap;
+				border-bottom: 1px solid #e0e0e0;
 			}
 
 			#stopka a {
@@ -413,21 +414,26 @@
 
   			<div id="tabelaOfertKonkurencji" style="margin-top:20px;"></div>
 		</div>
-<!--
+
 		<footer id="stopka">
 			<div>
 				<div>
 					<div>
+						<p>Stan na: 10.04.2026r.</p>
+					</div>
+				</div>
+				<div>
+					<div style="padding-top: 10px;">
 						<h4>Support:</h4>
 						<p><a href="mailto:andrzej.felski@tkchopin.pl">andrzej.felski@tkchopin.pl</a></p>
 					</div>
 				</div>
 				<div>
-					<p>&copy; <script>document.currentScript.insertAdjacentHTML('afterend', new Date().getFullYear())</script> | Andrzej Felski | Telewizja Kablowa Chopin</p>
+					<p>&copy; <script>document.currentScript.insertAdjacentHTML('afterend', new Date().getFullYear())</script> | Andrzej Felski @ Telewizja Kablowa Chopin</p>
 				</div>
 			</div>
 		</footer>
--->
+
 		<script>
 			const daneOfert = [
 			
@@ -1233,6 +1239,50 @@
 				{ firma: "Multimedia 1 Kwidzyn", usluga: "Internet i Telewizja", oferta: "Internet 600 Mb/s + MAX Box (151)", ofertaWartosc: 600, umowa: "24 miesiące", umowaWartosc: 24, cena: 125.97, promocje: [{ cena: 113.44, liczbaMiesiecy: 7 }] },
 				{ firma: "Multimedia 1 Kwidzyn", usluga: "Internet i Telewizja", oferta: "Internet 900 Mb/s + SUPER Box (132)", ofertaWartosc: 900, umowa: "24 miesiące", umowaWartosc: 24, cena: 125.97, promocje: [{ cena: 113.44, liczbaMiesiecy: 7 }] },
 				{ firma: "Multimedia 1 Kwidzyn", usluga: "Internet i Telewizja", oferta: "Internet 900 Mb/s + MAX Box (151)", ofertaWartosc: 900, umowa: "24 miesiące", umowaWartosc: 24, cena: 135.97, promocje: [{ cena: 123.44, liczbaMiesiecy: 7 }] },
+
+
+			// Jim-Sat
+				// Internet światłowodowy
+				{ firma: "Jim-Sat", usluga: "Internet światłowodowy", oferta: "Symetryczne 10 Mb/s", ofertaWartosc: 10, umowa: "bezterminowa", umowaWartosc: 999, cena: 39.00, promocje: [] },
+				{ firma: "Jim-Sat", usluga: "Internet światłowodowy", oferta: "Symetryczne 50 Mb/s", ofertaWartosc: 50, umowa: "bezterminowa", umowaWartosc: 999, cena: 49.00, promocje: [] },
+				{ firma: "Jim-Sat", usluga: "Internet światłowodowy", oferta: "Symetryczne 100 Mb/s", ofertaWartosc: 100, umowa: "bezterminowa", umowaWartosc: 999, cena: 59.00, promocje: [] },
+				{ firma: "Jim-Sat", usluga: "Internet światłowodowy", oferta: "Symetryczne 300 Mb/s", ofertaWartosc: 300, umowa: "bezterminowa", umowaWartosc: 999, cena: 49.00, promocje: [] },
+				{ firma: "Jim-Sat", usluga: "Internet światłowodowy", oferta: "Symetryczne 600 Mb/s", ofertaWartosc: 600, umowa: "bezterminowa", umowaWartosc: 999, cena: 69.00, promocje: [] },
+				{ firma: "Jim-Sat", usluga: "Internet światłowodowy", oferta: "Symetryczne 900 Mb/s", ofertaWartosc: 900, umowa: "bezterminowa", umowaWartosc: 999, cena: 79.00, promocje: [] },
+				
+				// Internet mobilny
+				{ firma: "Jim-Sat", usluga: "Internet mobilny", oferta: "Dynamiczne IP 10 GB", ofertaWartosc: 10, umowa: "bezterminowa", umowaWartosc: 999, cena: 13.99, promocje: [] },
+				{ firma: "Jim-Sat", usluga: "Internet mobilny", oferta: "Dynamiczne IP 100 GB + 200 GB w nocy", ofertaWartosc: 100, umowa: "bezterminowa", umowaWartosc: 999, cena: 34.99, promocje: [] },
+				{ firma: "Jim-Sat", usluga: "Internet mobilny", oferta: "Dynamiczne IP 200 GB + 200 GB w nocy", ofertaWartosc: 200, umowa: "bezterminowa", umowaWartosc: 999, cena: 64.99, promocje: [] },
+				{ firma: "Jim-Sat", usluga: "Internet mobilny", oferta: "Dynamiczne IP 500 GB", ofertaWartosc: 500, umowa: "bezterminowa", umowaWartosc: 999, cena: 99.99, promocje: [] },
+				{ firma: "Jim-Sat", usluga: "Internet mobilny", oferta: "Stałe IP 10 GB", ofertaWartosc: 10, umowa: "bezterminowa", umowaWartosc: 999, cena: 21.99, promocje: [] },
+				{ firma: "Jim-Sat", usluga: "Internet mobilny", oferta: "Stałe IP 30 GB", ofertaWartosc: 30, umowa: "bezterminowa", umowaWartosc: 999, cena: 37.99, promocje: [] },
+				{ firma: "Jim-Sat", usluga: "Internet mobilny", oferta: "Stałe IP 100 GB + 200 GB w nocy", ofertaWartosc: 100, umowa: "bezterminowa", umowaWartosc: 999, cena: 42.99, promocje: [] },
+				{ firma: "Jim-Sat", usluga: "Internet mobilny", oferta: "Stałe IP 200 GB + 200 GB w nocy", ofertaWartosc: 200, umowa: "bezterminowa", umowaWartosc: 999, cena: 71.99, promocje: [] },
+				
+				// Telewizja
+				{ firma: "Jim-Sat", usluga: "Telewizja", oferta: "Pakiet A (29)", ofertaWartosc: 29, umowa: "bezterminowa", umowaWartosc: 999, cena: 9.00, promocje: [] },
+				{ firma: "Jim-Sat", usluga: "Telewizja", oferta: "Pakiet E (106)", ofertaWartosc: 106, umowa: "bezterminowa", umowaWartosc: 999, cena: 54.00, promocje: [] },
+				
+				// Abonament komórkowy
+				{ firma: "Jim-Sat", usluga: "Abonament komórkowy", oferta: "Znakomita 5G (5 GB, SMS za 0,19 zł)", ofertaWartosc: 5, umowa: "bezterminowa", umowaWartosc: 999, cena: 12.99, promocje: [] },
+				{ firma: "Jim-Sat", usluga: "Abonament komórkowy", oferta: "Doskonała 5G (20 GB)", ofertaWartosc: 20, umowa: "bezterminowa", umowaWartosc: 999, cena: 17.99, promocje: [] },
+				{ firma: "Jim-Sat", usluga: "Abonament komórkowy", oferta: "Idealna 5G (50 GB)", ofertaWartosc: 50, umowa: "bezterminowa", umowaWartosc: 999, cena: 24.99, promocje: [] },
+				{ firma: "Jim-Sat", usluga: "Abonament komórkowy", oferta: "Mega 5G (100 GB)", ofertaWartosc: 100, umowa: "bezterminowa", umowaWartosc: 999, cena: 34.99, promocje: [] },
+				
+				// Telefon stacjonarny
+				{ firma: "Jim-Sat", usluga: "Telefon stacjonarny", oferta: "Familijny - Halo 60 (solo)", ofertaWartosc: 60, umowa: "bezterminowa", umowaWartosc: 999, cena: 45.00, promocje: [] },
+				{ firma: "Jim-Sat", usluga: "Telefon stacjonarny", oferta: "Familijny - Halo 60 (z telewizją)", ofertaWartosc: 60, umowa: "bezterminowa", umowaWartosc: 999, cena: 25.00, promocje: [] },
+				{ firma: "Jim-Sat", usluga: "Telefon stacjonarny", oferta: "Familijny - Halo 60 (z internetem)", ofertaWartosc: 60, umowa: "bezterminowa", umowaWartosc: 999, cena: 18.40, promocje: [] },
+				
+				// Internet i Telewizja
+				{ firma: "Jim-Sat", usluga: "Internet i Telewizja", oferta: "Dla Seniora - Internet 10 Mb/s + Pakiet E (106)", ofertaWartosc: 10, umowa: "bezterminowa", umowaWartosc: 999, cena: 75.00, promocje: [] },
+				{ firma: "Jim-Sat", usluga: "Internet i Telewizja", oferta: "Internet 10 Mb/s + Pakiet E (106)", ofertaWartosc: 10, umowa: "bezterminowa", umowaWartosc: 999, cena: 87.00, promocje: [] },
+				{ firma: "Jim-Sat", usluga: "Internet i Telewizja", oferta: "Internet 50 Mb/s + Pakiet E (106)", ofertaWartosc: 50, umowa: "bezterminowa", umowaWartosc: 999, cena: 97.00, promocje: [] },
+				{ firma: "Jim-Sat", usluga: "Internet i Telewizja", oferta: "Internet 100 Mb/s + Pakiet E (106)", ofertaWartosc: 100, umowa: "bezterminowa", umowaWartosc: 999, cena: 107.00, promocje: [] },
+				{ firma: "Jim-Sat", usluga: "Internet i Telewizja", oferta: "Internet 300 Mb/s + Pakiet E (106)", ofertaWartosc: 300, umowa: "bezterminowa", umowaWartosc: 999, cena: 97.00, promocje: [] },
+				{ firma: "Jim-Sat", usluga: "Internet i Telewizja", oferta: "Internet 600 Mb/s + Pakiet E (106)", ofertaWartosc: 600, umowa: "bezterminowa", umowaWartosc: 999, cena: 117.00, promocje: [] },
+				{ firma: "Jim-Sat", usluga: "Internet i Telewizja", oferta: "Internet 900 Mb/s + Pakiet E (106)", ofertaWartosc: 900, umowa: "bezterminowa", umowaWartosc: 999, cena: 127.00, promocje: [] },
 
 
 			// ELTRONIK
@@ -3266,6 +3316,60 @@
 				{ firma: "HiSpeed", usluga: "Opłata dla domów jednorodzinnch", oferta: "brak informacji", ofertaWartosc: 0, umowa: "-", umowaWartosc: 999 , cena: 0.00, promocje: [] },
 				
 				
+			// Provector
+				// Internet światłowodowy
+				{ firma: "Provector", usluga: "Internet światłowodowy", oferta: "100 Mb/s", ofertaWartosc: 100, umowa: "12 miesięcy", umowaWartosc: 12, cena: 29.99, promocje: [] },
+				{ firma: "Provector", usluga: "Internet światłowodowy", oferta: "300 / 50 Mb/s", ofertaWartosc: 300, umowa: "12 miesięcy", umowaWartosc: 12, cena: 49.99, promocje: [] },
+				{ firma: "Provector", usluga: "Internet światłowodowy", oferta: "300 / 100 Mb/s", ofertaWartosc: 300, umowa: "12 miesięcy", umowaWartosc: 12, cena: 59.99, promocje: [] },
+				{ firma: "Provector", usluga: "Internet światłowodowy", oferta: "600 Mb/s", ofertaWartosc: 600, umowa: "12 miesięcy", umowaWartosc: 12, cena: 69.99, promocje: [] },
+				{ firma: "Provector", usluga: "Internet światłowodowy", oferta: "900 Mb/s", ofertaWartosc: 900, umowa: "12 miesięcy", umowaWartosc: 12, cena: 89.99, promocje: [] },
+				{ firma: "Provector", usluga: "Internet światłowodowy", oferta: "100 Mb/s", ofertaWartosc: 100, umowa: "24 miesiące", umowaWartosc: 24, cena: 29.99, promocje: [] },
+				{ firma: "Provector", usluga: "Internet światłowodowy", oferta: "300 / 50 Mb/s", ofertaWartosc: 300, umowa: "24 miesiące", umowaWartosc: 24, cena: 49.99, promocje: [] },
+				{ firma: "Provector", usluga: "Internet światłowodowy", oferta: "300 / 100 Mb/s", ofertaWartosc: 300, umowa: "24 miesiące", umowaWartosc: 24, cena: 59.99, promocje: [] },
+				{ firma: "Provector", usluga: "Internet światłowodowy", oferta: "600 Mb/s", ofertaWartosc: 600, umowa: "24 miesiące", umowaWartosc: 24, cena: 69.99, promocje: [] },
+				{ firma: "Provector", usluga: "Internet światłowodowy", oferta: "900 Mb/s", ofertaWartosc: 900, umowa: "24 miesiące", umowaWartosc: 24, cena: 89.99, promocje: [] },
+				{ firma: "Provector", usluga: "Internet światłowodowy", oferta: "100 Mb/s", ofertaWartosc: 100, umowa: "bezterminowa", umowaWartosc: 999, cena: 29.99, promocje: [] },
+				{ firma: "Provector", usluga: "Internet światłowodowy", oferta: "300 / 50 Mb/s", ofertaWartosc: 300, umowa: "bezterminowa", umowaWartosc: 999, cena: 49.99, promocje: [] },
+				{ firma: "Provector", usluga: "Internet światłowodowy", oferta: "300 / 100 Mb/s", ofertaWartosc: 300, umowa: "bezterminowa", umowaWartosc: 999, cena: 59.99, promocje: [] },
+				{ firma: "Provector", usluga: "Internet światłowodowy", oferta: "600 Mb/s", ofertaWartosc: 600, umowa: "bezterminowa", umowaWartosc: 999, cena: 69.99, promocje: [] },
+				{ firma: "Provector", usluga: "Internet światłowodowy", oferta: "900 Mb/s", ofertaWartosc: 900, umowa: "bezterminowa", umowaWartosc: 999, cena: 89.99, promocje: [] },
+				
+				// Internet i Telewizja
+				{ firma: "Provector", usluga: "Internet i Telewizja", oferta: "Internet 300 / 100 Mb/s + Pakiet Podstawowy (79) + JAMBOX GO!", ofertaWartosc: 300, umowa: "24 miesiące", umowaWartosc: 24, cena: 79.99, promocje: [] },
+				{ firma: "Provector", usluga: "Internet i Telewizja", oferta: "Internet 300 / 100 Mb/s + Pakiet Mini HD (128) + JAMBOX GO!", ofertaWartosc: 300, umowa: "24 miesiące", umowaWartosc: 24, cena: 75.00, promocje: [] },
+				{ firma: "Provector", usluga: "Internet i Telewizja", oferta: "Internet 600 Mb/s + Pakiet Podstawowy (79) + JAMBOX GO!", ofertaWartosc: 600, umowa: "24 miesiące", umowaWartosc: 24, cena: 99.99, promocje: [] },
+				{ firma: "Provector", usluga: "Internet i Telewizja", oferta: "Internet 600 Mb/s + Pakiet Mini HD (128) + JAMBOX GO!", ofertaWartosc: 600, umowa: "24 miesiące", umowaWartosc: 24, cena: 95.00, promocje: [] },
+				{ firma: "Provector", usluga: "Internet i Telewizja", oferta: "Internet 600 Mb/s + Pakiet Korzystny (136) + JAMBOX GO!", ofertaWartosc: 600, umowa: "24 miesiące", umowaWartosc: 24, cena: 99.99, promocje: [] },
+				{ firma: "Provector", usluga: "Internet i Telewizja", oferta: "Internet 600 Mb/s + Pakiet Wielotematyczny HD (161) + JAMBOX GO! + Pakiet Filmbox HD", ofertaWartosc: 600, umowa: "24 miesiące", umowaWartosc: 24, cena: 100.99, promocje: [] },
+				{ firma: "Provector", usluga: "Internet i Telewizja", oferta: "Internet 600 Mb/s + Pakiet Wielotematyczny Super HD (173) + JAMBOX GO! + Pakiet Filmbox HD", ofertaWartosc: 600, umowa: "24 miesiące", umowaWartosc: 24, cena: 129.99, promocje: [] },
+				{ firma: "Provector", usluga: "Internet i Telewizja", oferta: "Internet 600 Mb/s + Pakiet Bogaty (179) + JAMBOX GO!", ofertaWartosc: 600, umowa: "24 miesiące", umowaWartosc: 24, cena: 115.99, promocje: [] },
+				{ firma: "Provector", usluga: "Internet i Telewizja", oferta: "Internet 900 Mb/s + Pakiet Podstawowy (79) + JAMBOX GO!", ofertaWartosc: 900, umowa: "24 miesiące", umowaWartosc: 24, cena: 109.99, promocje: [] },
+				{ firma: "Provector", usluga: "Internet i Telewizja", oferta: "Internet 900 Mb/s + Pakiet Mini HD (128) + JAMBOX GO!", ofertaWartosc: 900, umowa: "24 miesiące", umowaWartosc: 24, cena: 105.00, promocje: [] },
+				{ firma: "Provector", usluga: "Internet i Telewizja", oferta: "Internet 900 Mb/s + Pakiet Korzystny (136) + JAMBOX GO!", ofertaWartosc: 900, umowa: "24 miesiące", umowaWartosc: 24, cena: 109.99, promocje: [] },
+				{ firma: "Provector", usluga: "Internet i Telewizja", oferta: "Internet 900 Mb/s + Pakiet Wielotematyczny HD (161) + JAMBOX GO! + Pakiet Filmbox HD", ofertaWartosc: 900, umowa: "24 miesiące", umowaWartosc: 24, cena: 110.99, promocje: [] },
+				{ firma: "Provector", usluga: "Internet i Telewizja", oferta: "Internet 900 Mb/s + Pakiet Wielotematyczny Super HD (173) + JAMBOX GO! + Pakiet Filmbox HD", ofertaWartosc: 900, umowa: "24 miesiące", umowaWartosc: 24, cena: 139.99, promocje: [] },
+				{ firma: "Provector", usluga: "Internet i Telewizja", oferta: "Internet 900 Mb/s + Pakiet Bogaty (179) + JAMBOX GO!", ofertaWartosc: 900, umowa: "24 miesiące", umowaWartosc: 24, cena: 125.99, promocje: [] },
+				
+				
+			// Gorzowska Telewizja Przewodowa
+				// Internet światłowodowy
+				{ firma: "Gorzowska Telewizja Przewodowa", usluga: "Internet światłowodowy", oferta: "MINI 100 Mb/s", ofertaWartosc: 100, umowa: "bezterminowa", umowaWartosc: 999, cena: 45.00, promocje: [] },
+				{ firma: "Gorzowska Telewizja Przewodowa", usluga: "Internet światłowodowy", oferta: "MAXI 300 Mb/s", ofertaWartosc: 300, umowa: "bezterminowa", umowaWartosc: 999, cena: 55.00, promocje: [] },
+				{ firma: "Gorzowska Telewizja Przewodowa", usluga: "Internet światłowodowy", oferta: "OPTIMUM 500 Mb/s", ofertaWartosc: 500, umowa: "bezterminowa", umowaWartosc: 999, cena: 65.00, promocje: [] },
+				{ firma: "Gorzowska Telewizja Przewodowa", usluga: "Internet światłowodowy", oferta: "MINI 100 Mb/s (z inną usługą)", ofertaWartosc: 100, umowa: "bezterminowa", umowaWartosc: 999, cena: 29.00, promocje: [] },
+				{ firma: "Gorzowska Telewizja Przewodowa", usluga: "Internet światłowodowy", oferta: "MAXI 300 Mb/s (z inną usługą)", ofertaWartosc: 300, umowa: "bezterminowa", umowaWartosc: 999, cena: 50.00, promocje: [] },
+				{ firma: "Gorzowska Telewizja Przewodowa", usluga: "Internet światłowodowy", oferta: "OPTIMUM 500 Mb/s (z inną usługą)", ofertaWartosc: 500, umowa: "bezterminowa", umowaWartosc: 999, cena: 60.00, promocje: [] },
+				
+				// Telewizja
+				{ firma: "Gorzowska Telewizja Przewodowa", usluga: "Telewizja", oferta: "Pakiet Podstawowy A (66)", ofertaWartosc: 66, umowa: "bezterminowa", umowaWartosc: 999, cena: 37.00, promocje: [] },
+				{ firma: "Gorzowska Telewizja Przewodowa", usluga: "Telewizja", oferta: "Pakiet Rozszerzony B (122)", ofertaWartosc: 122, umowa: "bezterminowa", umowaWartosc: 999, cena: 55.00, promocje: [] },
+				
+				// Telefon stacjonarny
+				{ firma: "Gorzowska Telewizja Przewodowa", usluga: "Telefon stacjonarny", oferta: "Telefonia GTP (300 minut na stacjonarne, 20 minut na komórki, 60 minut na międzynarodowe)", ofertaWartosc: 300, umowa: "bezterminowa", umowaWartosc: 999, cena: 38.00, promocje: [] },
+				{ firma: "Gorzowska Telewizja Przewodowa", usluga: "Telefon stacjonarny", oferta: "Telefonia GTP (300 minut na stacjonarne, 20 minut na komórki, 60 minut na międzynarodowe) (z 1 inną usługą)", ofertaWartosc: 300, umowa: "bezterminowa", umowaWartosc: 999, cena: 28.00, promocje: [] },
+				{ firma: "Gorzowska Telewizja Przewodowa", usluga: "Telefon stacjonarny", oferta: "Telefonia GTP (300 minut na stacjonarne, 20 minut na komórki, 60 minut na międzynarodowe) (z 2 innymi usługami)", ofertaWartosc: 300, umowa: "bezterminowa", umowaWartosc: 999, cena: 25.00, promocje: [] },
+				
+				
 			// Starlink
 				// Internet światłowodowy
 				{ firma: "Starlink", usluga: "Internet mobilny", oferta: "W DOMU 100 Mb/s - bez limitu", ofertaWartosc: 100, umowa: "bezterminowa", umowaWartosc: 999, cena: 129.00, promocje: [] },
@@ -3331,7 +3435,7 @@
 			let aktualnaKonkurencja = [];
 			let twojaOfertaGlobal = null;
 
-			const firmyWlasneLista = ["Chopin", "Pelmar", "Multimedia 2", "Multimedia 1 Stargard", "Multimedia 1 Olsztyn", "Multimedia 1 Ostróda", "Multimedia 1 Łowicz", "Multimedia 1 Kwidzyn", "ELTRONIK"];
+			const firmyWlasneLista = ["Chopin", "Pelmar", "Multimedia 2", "Multimedia 1 Stargard", "Multimedia 1 Olsztyn", "Multimedia 1 Ostróda", "Multimedia 1 Łowicz", "Multimedia 1 Kwidzyn", "Jim-Sat", "ELTRONIK"];
 
 			// Wypełnij select "firma" na podstawie danych i firm własnych
 			const firmyWlasne = [...new Set(daneOfert
@@ -3356,6 +3460,7 @@
 				"Multimedia 1 Ostróda": ["Orange", "T-Mobile", "Play", "Plus", "Vectra", "INEA", "RFC", "MATCOM", "ELTRONIK", "IWKD", "Starlink", "(hurtowe) Światłowód Inwestycje", "(hurtowe) NEXERA", "(hurtowe) Polski Światłowód Otwarty"],
 				"Multimedia 1 Łowicz": ["Orange", "T-Mobile", "Play", "Plus", "Netia", "Vectra", "INEA", "RFC", "JMDI", "budimpex", "mpcnet", "timplus", "Starlink", "(hurtowe) Światłowód Inwestycje", "(hurtowe) NEXERA"],
 				"Multimedia 1 Kwidzyn": ["Orange", "T-Mobile", "Play", "Plus", "Netia", "Vectra", "INEA", "RFC", "JMDI", "GECKONET", "nortis", "Starlink", "(hurtowe) Światłowód Inwestycje"],
+				"Jim-Sat": ["Orange", "T-Mobile", "Play", "Provector", "Gorzowska Telewizja Przewodowa"],
 				"ELTRONIK": ["Orange", "T-Mobile", "Play", "Vectra", "Netia"],
 			};
 
