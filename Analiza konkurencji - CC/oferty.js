@@ -2928,6 +2928,7 @@ const daneOfert = [
 	{ firma: "VLMedia", usluga: "Internet i Telewizja", oferta: "Internet 600 Mb/s + PRESTIŻ HD (212)", ofertaWartosc: 600, umowa: "24 miesiące", umowaWartosc: 24, cena: 119.00, promocje: [] },
 	{ firma: "VLMedia", usluga: "Internet i Telewizja", oferta: "Internet 1Gb/s + MAX HD (222)", ofertaWartosc: 1000, umowa: "24 miesiące", umowaWartosc: 24, cena: 149.00, promocje: [] },
 
+	// Opłata dla domów jednorodzinnych
 	{ firma: "VLMedia", usluga: "Opłata dla domów jednorodzinnych", oferta: "brak informacji", ofertaWartosc: 0, umowa: "-", umowaWartosc: 999 , cena: 0.00, promocje: [] },
 
 
@@ -2947,6 +2948,7 @@ const daneOfert = [
 	{ firma: "Wave", usluga: "Telefon stacjonarny", oferta: "Optymalny - 500", ofertaWartosc: 500, umowa: "24 miesiące", umowaWartosc: 24, cena: 29.00, promocje: [] },
 	{ firma: "Wave", usluga: "Telefon stacjonarny", oferta: "Bez Limitu", ofertaWartosc: 9999, umowa: "24 miesiące", umowaWartosc: 24, cena: 49.00, promocje: [] },
 	
+	// Opłata dla domów jednorodzinnych
 	{ firma: "Wave", usluga: "Opłata dla domów jednorodzinnych", oferta: "brak informacji", ofertaWartosc: 0, umowa: "-", umowaWartosc: 999 , cena: 0.00, promocje: [] },
 	
 	
@@ -2972,6 +2974,7 @@ const daneOfert = [
 	{ firma: "mBit", usluga: "Telefon stacjonarny", oferta: "(VoIP) mStandard - 150", ofertaWartosc: 150, umowa: "24 miesiące", umowaWartosc: 24, cena: 29.00, promocje: [] },
 	{ firma: "mBit", usluga: "Telefon stacjonarny", oferta: "(VoIP) mPlotek - 300", ofertaWartosc: 300, umowa: "24 miesiące", umowaWartosc: 24, cena: 39.00, promocje: [] },
 	
+	// Opłata dla domów jednorodzinnych
 	{ firma: "mBit", usluga: "Opłata dla domów jednorodzinnych", oferta: "brak informacji", ofertaWartosc: 0, umowa: "-", umowaWartosc: 999 , cena: 0.00, promocje: [] },
 	
 	
@@ -2989,7 +2992,49 @@ const daneOfert = [
 	{ firma: "HiSpeed", usluga: "Internet i Telewizja", oferta: "Internet 600 Mb/s + Pakiet Podstawowy (62)", ofertaWartosc: 600, umowa: "24 miesiące", umowaWartosc: 24, cena: 93.00, promocje: [] },
 	{ firma: "HiSpeed", usluga: "Internet i Telewizja", oferta: "Internet 1 Gb/s + Pakiet Podstawowy (62)", ofertaWartosc: 1000, umowa: "24 miesiące", umowaWartosc: 24, cena: 108.00, promocje: [] },
 
+	// Opłata dla domów jednorodzinnych
 	{ firma: "HiSpeed", usluga: "Opłata dla domów jednorodzinnych", oferta: "brak informacji", ofertaWartosc: 0, umowa: "-", umowaWartosc: 999 , cena: 0.00, promocje: [] },
+	
+	
+// Pro Internet
+	// Internet światłowodowy
+	{ firma: "Pro Internet", usluga: "Internet światłowodowy", oferta: "FIBER SYMMETRICAL 100 Mb/s", ofertaWartosc: 100, umowa: "24 miesiące", umowaWartosc: 24, cena: 109.00, promocje: [] },
+	{ firma: "Pro Internet", usluga: "Internet światłowodowy", oferta: "FIBER SYMMETRICAL 500 Mb/s", ofertaWartosc: 500, umowa: "24 miesiące", umowaWartosc: 24, cena: 119.00, promocje: [] },
+	{ firma: "Pro Internet", usluga: "Internet światłowodowy", oferta: "FIBER SYMMETRICAL 700 Mb/s", ofertaWartosc: 700, umowa: "24 miesiące", umowaWartosc: 24, cena: 139.00, promocje: [] },
+	{ firma: "Pro Internet", usluga: "Internet światłowodowy", oferta: "FIBER SYMMETRICAL 900 Mb/s", ofertaWartosc: 900, umowa: "24 miesiące", umowaWartosc: 24, cena: 159.00, promocje: [] },
+	{ firma: "Pro Internet", usluga: "Internet światłowodowy", oferta: "FIBER SYMMETRICAL 2 Gb/s", ofertaWartosc: 2000, umowa: "24 miesiące", umowaWartosc: 24, cena: 169.00, promocje: [] },
+	{ firma: "Pro Internet", usluga: "Internet światłowodowy", oferta: "FIBER SYMMETRICAL 4 Gb/s", ofertaWartosc: 4000, umowa: "24 miesiące", umowaWartosc: 24, cena: 189.00, promocje: [] },
+	{ firma: "Pro Internet", usluga: "Internet światłowodowy", oferta: "FIBER SYMMETRICAL 6 Gb/s", ofertaWartosc: 6000, umowa: "24 miesiące", umowaWartosc: 24, cena: 209.00, promocje: [] },
+	
+	// Internet mobilny
+	{ firma: "Pro Internet", usluga: "Internet mobilny", oferta: "2 GB (cena dla Klientów posiadających internet stacjonarny)", ofertaWartosc: 2, umowa: "24 miesiące", umowaWartosc: 24, cena: 9.90, promocje: [] },
+	{ firma: "Pro Internet", usluga: "Internet mobilny", oferta: "5 GB (cena dla Klientów posiadających internet stacjonarny)", ofertaWartosc: 5, umowa: "24 miesiące", umowaWartosc: 24, cena: 14.90, promocje: [] },
+	{ firma: "Pro Internet", usluga: "Internet mobilny", oferta: "10 GB (cena dla Klientów posiadających internet stacjonarny)", ofertaWartosc: 10, umowa: "24 miesiące", umowaWartosc: 24, cena: 19.90, promocje: [] },
+	{ firma: "Pro Internet", usluga: "Internet mobilny", oferta: "25 GB (cena dla Klientów posiadających internet stacjonarny)", ofertaWartosc: 25, umowa: "24 miesiące", umowaWartosc: 24, cena: 29.90, promocje: [] },
+	
+	// Telewizja
+	{ firma: "Pro Internet", usluga: "Telewizja", oferta: "Pakiet PRIMUM (57)", ofertaWartosc: 57, umowa: "24 miesiące", umowaWartosc: 24, cena: 59.00, promocje: [] },
+	{ firma: "Pro Internet", usluga: "Telewizja", oferta: "Pakiet MEDIUM (126)", ofertaWartosc: 126, umowa: "24 miesiące", umowaWartosc: 24, cena: 99.00, promocje: [] },
+	{ firma: "Pro Internet", usluga: "Telewizja", oferta: "Pakiet OPTIMUM (142)", ofertaWartosc: 142, umowa: "24 miesiące", umowaWartosc: 24, cena: 119.00, promocje: [] },
+
+	// Internet i Telewizja
+	{ firma: "Pro Internet", usluga: "Internet i Telewizja", oferta: "FIBER SYMMETRICAL 500 Mb/s + Pakiet PRIMUM (57)", ofertaWartosc: 500, umowa: "24 miesiące", umowaWartosc: 24, cena: 139.00, promocje: [] },
+	{ firma: "Pro Internet", usluga: "Internet i Telewizja", oferta: "FIBER SYMMETRICAL 700 Mb/s + Pakiet MEDIUM (126)", ofertaWartosc: 700, umowa: "24 miesiące", umowaWartosc: 24, cena: 169.00, promocje: [] },
+	{ firma: "Pro Internet", usluga: "Internet i Telewizja", oferta: "FIBER SYMMETRICAL 700 Mb/s + Pakiet MEDIUM (126) + CANAL+ PRESTIGE", ofertaWartosc: 700, umowa: "24 miesiące", umowaWartosc: 24, cena: 199.00, promocje: [] },
+	{ firma: "Pro Internet", usluga: "Internet i Telewizja", oferta: "FIBER SYMMETRICAL 900 Mb/s + Pakiet OPTIMUM (142)", ofertaWartosc: 900, umowa: "24 miesiące", umowaWartosc: 24, cena: 189.00, promocje: [] },
+	{ firma: "Pro Internet", usluga: "Internet i Telewizja", oferta: "FIBER SYMMETRICAL 900 Mb/s + Pakiet OPTIMUM (142) + CANAL+ PRESTIGE", ofertaWartosc: 900, umowa: "24 miesiące", umowaWartosc: 24, cena: 219.00, promocje: [] },
+	{ firma: "Pro Internet", usluga: "Internet i Telewizja", oferta: "FIBER SYMMETRICAL 2 Gb/s + Pakiet PRIMUM (57)", ofertaWartosc: 2000, umowa: "24 miesiące", umowaWartosc: 24, cena: 189.00, promocje: [] },
+	{ firma: "Pro Internet", usluga: "Internet i Telewizja", oferta: "FIBER SYMMETRICAL 4 Gb/s + Pakiet MEDIUM (126)", ofertaWartosc: 4000, umowa: "24 miesiące", umowaWartosc: 24, cena: 219.00, promocje: [] },
+	{ firma: "Pro Internet", usluga: "Internet i Telewizja", oferta: "FIBER SYMMETRICAL 4 Gb/s + Pakiet MEDIUM (126) + CANAL+ PRESTIGE", ofertaWartosc: 4000, umowa: "24 miesiące", umowaWartosc: 24, cena: 249.00, promocje: [] },
+	{ firma: "Pro Internet", usluga: "Internet i Telewizja", oferta: "FIBER SYMMETRICAL 6 Gb/s + Pakiet OPTIMUM (142)", ofertaWartosc: 6000, umowa: "24 miesiące", umowaWartosc: 24, cena: 239.00, promocje: [] },
+	{ firma: "Pro Internet", usluga: "Internet i Telewizja", oferta: "FIBER SYMMETRICAL 6 Gb/s + Pakiet OPTIMUM (142) + CANAL+ PRESTIGE", ofertaWartosc: 6000, umowa: "24 miesiące", umowaWartosc: 24, cena: 269.00, promocje: [] },
+	
+	// Telefon stacjonarny
+	{ firma: "Pro Internet", usluga: "Telefon stacjonarny", oferta: "Telefon TCP dla Klientów bez internetu", ofertaWartosc: 0, umowa: "24 miesiące", umowaWartosc: 24, cena: 19.90, promocje: [] },
+	{ firma: "Pro Internet", usluga: "Telefon stacjonarny", oferta: "Telefon TCP dla Klientów z internetem", ofertaWartosc: 0, umowa: "24 miesiące", umowaWartosc: 24, cena: 14.90, promocje: [] },
+
+	// Opłata dla domów jednorodzinnych
+	{ firma: "Pro Internet", usluga: "Opłata dla domów jednorodzinnych", oferta: "brak informacji", ofertaWartosc: 0, umowa: "-", umowaWartosc: 999 , cena: 0.00, promocje: [] },
 	
 	
 // Provector
