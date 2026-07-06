@@ -1052,7 +1052,7 @@ const daneOfert = [
 // T-Mobile
 	// Internet światłowodowy
 	{ firma: "T-Mobile", usluga: "Internet światłowodowy", oferta: "Gdańsk od opiekuna klienta - 300 Mb/s", ofertaWartosc: 300, umowa: "24 miesiące", umowaWartosc: 24, cena: 30.00, promocje: [] },
-	{ firma: "T-Mobile", usluga: "Internet światłowodowy", oferta: "Gdańsk od opiekuna klienta - 300 Mb/s + abonament komórkowy", ofertaWartosc: 300, umowa: "24 miesiące", umowaWartosc: 24, cena: 75.00, promocje: [] },
+	{ firma: "T-Mobile", usluga: "Internet światłowodowy", oferta: "Gdańsk od opiekuna klienta - 300 Mb/s + Abonament komórkowy", ofertaWartosc: 300, umowa: "24 miesiące", umowaWartosc: 24, cena: 75.00, promocje: [] },
 	{ firma: "T-Mobile", usluga: "Internet światłowodowy", oferta: "Gdańsk od opiekuna klienta - 900 Mb/s", ofertaWartosc: 900, umowa: "24 miesiące", umowaWartosc: 24, cena: 50.00, promocje: [] },
 	{ firma: "T-Mobile", usluga: "Internet światłowodowy", oferta: "300 Mb/s", ofertaWartosc: 300, umowa: "24 miesiące", umowaWartosc: 24, cena: 35.00, promocje: [] },
 	{ firma: "T-Mobile", usluga: "Internet światłowodowy", oferta: "900 Mb/s", ofertaWartosc: 900, umowa: "24 miesiące", umowaWartosc: 24, cena: 55.00, promocje: [] },
@@ -1065,6 +1065,12 @@ const daneOfert = [
 	{ firma: "T-Mobile", usluga: "Abonament komórkowy", oferta: "Abonament komórkowy (bez limitu)", ofertaWartosc: 9999, umowa: "24 miesiące", umowaWartosc: 24, cena: 75.00, promocje: [] },
 
 	// Internet i Telewizja
+	{ firma: "T-Mobile", usluga: "Internet i Telewizja", oferta: "Od opiekuna klienta RUMIA - Internet 300 Mb/s + Magenta TV S (85)", ofertaWartosc: 300, umowa: "24 miesiące", umowaWartosc: 24, cena: 55.00, promocje: [] },
+	{ firma: "T-Mobile", usluga: "Internet i Telewizja", oferta: "Od opiekuna klienta RUMIA - Internet 300 Mb/s + Magenta TV S (85) + Abonament komórkowy", ofertaWartosc: 300, umowa: "24 miesiące", umowaWartosc: 24, cena: 95.00, promocje: [] },
+	{ firma: "T-Mobile", usluga: "Internet i Telewizja", oferta: "Od opiekuna klienta RUMIA - Internet 300 Mb/s + Magenta TV M (150)", ofertaWartosc: 300, umowa: "24 miesiące", umowaWartosc: 24, cena: 85.00, promocje: [{ cena: 35.00, liczbaMiesiecy: 6 }] },
+	{ firma: "T-Mobile", usluga: "Internet i Telewizja", oferta: "Od opiekuna klienta RUMIA - Internet 300 Mb/s + Magenta TV M (150) + CANAL+ Super Sport", ofertaWartosc: 300, umowa: "24 miesiące", umowaWartosc: 24, cena: 154.00, promocje: [{ cena: 35.00, liczbaMiesiecy: 6 }] },
+	{ firma: "T-Mobile", usluga: "Internet i Telewizja", oferta: "Od opiekuna klienta RUMIA - Internet 300 Mb/s + Magenta TV L (194)", ofertaWartosc: 300, umowa: "24 miesiące", umowaWartosc: 24, cena: 115.00, promocje: [{ cena: 35.00, liczbaMiesiecy: 6 }] },
+	{ firma: "T-Mobile", usluga: "Internet i Telewizja", oferta: "Od opiekuna klienta RUMIA - Internet 300 Mb/s + Magenta TV L (194) + CANAL+ Super Sport", ofertaWartosc: 300, umowa: "24 miesiące", umowaWartosc: 24, cena: 184.00, promocje: [{ cena: 35.00, liczbaMiesiecy: 6 }] },
 	{ firma: "T-Mobile", usluga: "Internet i Telewizja", oferta: "Internet 300 Mb/s + Magenta TV M (150) + Abonament komórkowy", ofertaWartosc: 300, umowa: "24 miesiące", umowaWartosc: 24, cena: 125.00, promocje: [{ cena: 75.00, liczbaMiesiecy: 6 }] },
 	{ firma: "T-Mobile", usluga: "Internet i Telewizja", oferta: "Internet 300 Mb/s + Magenta TV L (194) + Abonament komórkowy", ofertaWartosc: 300, umowa: "24 miesiące", umowaWartosc: 24, cena: 155.00, promocje: [{ cena: 75.00, liczbaMiesiecy: 6 }] },
 	{ firma: "T-Mobile", usluga: "Internet i Telewizja", oferta: "Internet 900 Mb/s + Magenta TV M (150) + Abonament komórkowy", ofertaWartosc: 900, umowa: "24 miesiące", umowaWartosc: 24, cena: 145.00, promocje: [{ cena: 95.00, liczbaMiesiecy: 6 }] },
