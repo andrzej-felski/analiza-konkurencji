@@ -1216,6 +1216,10 @@ const daneOfert = [
 	{ firma: "Netia", usluga: "Telefon stacjonarny", oferta: "Bez limitu", ofertaWartosc: 9999, umowa: "24 miesiące", umowaWartosc: 24, cena: 30.00, promocje: [] },
 
 	// Internet i Telewizja
+	{ firma: "Netia", usluga: "Internet i Telewizja", oferta: "Ulotka GDYNIA - Internet 300 Mb/s + Telewizja (88)", ofertaWartosc: 300, umowa: "24 miesiące", umowaWartosc: 24, cena: 40.00, promocje: [] },
+	{ firma: "Netia", usluga: "Internet i Telewizja", oferta: "Ulotka GDYNIA - Internet 600 Mb/s + Telewizja (113)", ofertaWartosc: 600, umowa: "24 miesiące", umowaWartosc: 24, cena: 55.00, promocje: [] },
+	{ firma: "Netia", usluga: "Internet i Telewizja", oferta: "Ulotka GDYNIA - Internet 1 Gb/s + Telewizja (186) + Bezpieczny Internet Ultra", ofertaWartosc: 1000, umowa: "24 miesiące", umowaWartosc: 24, cena: 140.00, promocje: [{ cena: 0.00, liczbaMiesiecy: 12 }] },
+	{ firma: "Netia", usluga: "Internet i Telewizja", oferta: "Ulotka GDYNIA - Internet 2 Gb/s + Telewizja (186) + Bezpieczny Internet Ultra", ofertaWartosc: 2000, umowa: "24 miesiące", umowaWartosc: 24, cena: 160.00, promocje: [{ cena: 0.00, liczbaMiesiecy: 12 }] },
 	{ firma: "Netia", usluga: "Internet i Telewizja", oferta: "Internet 300 Mb/s + Telewizja (94)", ofertaWartosc: 300, umowa: "24 miesiące", umowaWartosc: 24, cena: 60.00, promocje: [{ cena: 0.00, liczbaMiesiecy: 3 }] },
 	{ firma: "Netia", usluga: "Internet i Telewizja", oferta: "Internet 300 Mb/s + Telewizja (119)", ofertaWartosc: 300, umowa: "24 miesiące", umowaWartosc: 24, cena: 70.00, promocje: [{ cena: 0.00, liczbaMiesiecy: 3 }] },
 	{ firma: "Netia", usluga: "Internet i Telewizja", oferta: "Internet 300 Mb/s + Telewizja (122)", ofertaWartosc: 300, umowa: "24 miesiące", umowaWartosc: 24, cena: 90.00, promocje: [{ cena: 0.00, liczbaMiesiecy: 3 }] },
@@ -1395,6 +1399,11 @@ const daneOfert = [
 
 // JMDI
 	// Internet światłowodowy
+	{ firma: "JMDI", usluga: "Internet światłowodowy", oferta: "Ulotka GDYNIA - Blok 600 Mb/s", ofertaWartosc: 600, umowa: "12 miesięcy", umowaWartosc: 12, cena: 54.90, promocje: [{ cena: 1.00, liczbaMiesiecy: 1 }] },
+	{ firma: "JMDI", usluga: "Internet światłowodowy", oferta: "Ulotka GDYNIA - Blok 400 Mb/s", ofertaWartosc: 400, umowa: "24 miesiące", umowaWartosc: 24, cena: 34.90, promocje: [{ cena: 1.00, liczbaMiesiecy: 1 }] },
+	{ firma: "JMDI", usluga: "Internet światłowodowy", oferta: "Ulotka GDYNIA - Blok 600 Mb/s", ofertaWartosc: 600, umowa: "24 miesiące", umowaWartosc: 24, cena: 44.90, promocje: [{ cena: 1.00, liczbaMiesiecy: 3 }] },
+	{ firma: "JMDI", usluga: "Internet światłowodowy", oferta: "Ulotka GDYNIA - Blok 800 Mb/s", ofertaWartosc: 800, umowa: "24 miesiące", umowaWartosc: 24, cena: 54.90, promocje: [{ cena: 1.00, liczbaMiesiecy: 4 }] },
+	{ firma: "JMDI", usluga: "Internet światłowodowy", oferta: "Ulotka GDYNIA - Blok 1 Gb/s", ofertaWartosc: 1000, umowa: "24 miesiące", umowaWartosc: 24, cena: 64.90, promocje: [{ cena: 1.00, liczbaMiesiecy: 6 }] },
 	{ firma: "JMDI", usluga: "Internet światłowodowy", oferta: "Blok 800 Mb/s", ofertaWartosc: 800, umowa: "12 miesięcy", umowaWartosc: 12, cena: 64.90, promocje: [{ cena: 1.00, liczbaMiesiecy: 2 }] },
 	{ firma: "JMDI", usluga: "Internet światłowodowy", oferta: "Dom 800 Mb/s", ofertaWartosc: 800, umowa: "12 miesięcy", umowaWartosc: 12, cena: 84.90, promocje: [] },
 	{ firma: "JMDI", usluga: "Internet światłowodowy", oferta: "Blok 400 Mb/s", ofertaWartosc: 400, umowa: "24 miesiące", umowaWartosc: 24, cena: 34.90, promocje: [] },
@@ -1422,6 +1431,14 @@ const daneOfert = [
 	{ firma: "JMDI", usluga: "Telefon stacjonarny", oferta: "Telefon 1500 Plus (darmowe minuty na telefony stacjonarne i komórkowe)", ofertaWartosc: 1500, umowa: "24 miesiące", umowaWartosc: 24, cena: 50.00, promocje: [] },
 
 	// Internet i Telewizja
+	{ firma: "JMDI", usluga: "Internet i Telewizja", oferta: "Ulotka GDYNIA - Blok Internet 800 Mb/s + Telewizja (145)", ofertaWartosc: 800, umowa: "12 miesięcy", umowaWartosc: 12, cena: 84.90, promocje: [{ cena: 1.00, liczbaMiesiecy: 2 }] },
+	{ firma: "JMDI", usluga: "Internet i Telewizja", oferta: "Ulotka GDYNIA - Blok Internet 400 Mb/s + Telewizja (70)", ofertaWartosc: 400, umowa: "24 miesiące", umowaWartosc: 24, cena: 44.90, promocje: [{ cena: 1.00, liczbaMiesiecy: 1 }] },
+	{ firma: "JMDI", usluga: "Internet i Telewizja", oferta: "Ulotka GDYNIA - Blok Internet 600 Mb/s + Telewizja (145)", ofertaWartosc: 600, umowa: "24 miesiące", umowaWartosc: 24, cena: 59.90, promocje: [{ cena: 1.00, liczbaMiesiecy: 4 }] },
+	{ firma: "JMDI", usluga: "Internet i Telewizja", oferta: "Ulotka GDYNIA - Blok Internet 800 Mb/s + Telewizja (171) + Eleven Sports lub Cinemax", ofertaWartosc: 800, umowa: "24 miesiące", umowaWartosc: 24, cena: 84.90, promocje: [{ cena: 1.00, liczbaMiesiecy: 6 }] },
+	{ firma: "JMDI", usluga: "Internet i Telewizja", oferta: "Ulotka GDYNIA - Blok Internet 800 Mb/s + Telewizja (171) + CANAL+ Seriale i Filmy + HBO + Cinemax", ofertaWartosc: 800, umowa: "24 miesiące", umowaWartosc: 24, cena: 99.90, promocje: [{ cena: 1.00, liczbaMiesiecy: 3 }] },
+	{ firma: "JMDI", usluga: "Internet i Telewizja", oferta: "Ulotka GDYNIA - Blok Internet 800 Mb/s + Telewizja (171) + CANAL+ Super Sport + Eurosport + Eleven Sports", ofertaWartosc: 800, umowa: "24 miesiące", umowaWartosc: 24, cena: 109.90, promocje: [{ cena: 1.00, liczbaMiesiecy: 3 }] },
+	{ firma: "JMDI", usluga: "Internet i Telewizja", oferta: "Ulotka GDYNIA - Blok Internet 1 Gb/s + Telewizja (201) + Eleven Sports 1 4K", ofertaWartosc: 1000, umowa: "24 miesiące", umowaWartosc: 24, cena: 99.90, promocje: [{ cena: 1.00, liczbaMiesiecy: 6 }] },
+	{ firma: "JMDI", usluga: "Internet i Telewizja", oferta: "Ulotka GDYNIA - Blok Internet 1 Gb/s + Telewizja (201) + CANAL+ Super Sport + Polsat Sport Premium + Eurosport + Eleven Sports 1 4K", ofertaWartosc: 1000, umowa: "24 miesiące", umowaWartosc: 24, cena: 129.90, promocje: [{ cena: 1.00, liczbaMiesiecy: 4 }] },
 	{ firma: "JMDI", usluga: "Internet i Telewizja", oferta: "Blok Internet 800 Mb/s + Telewizja (145)", ofertaWartosc: 800, umowa: "12 miesięcy", umowaWartosc: 12, cena: 84.90, promocje: [{ cena: 1.00, liczbaMiesiecy: 2 }] },
 	{ firma: "JMDI", usluga: "Internet i Telewizja", oferta: "Dom Internet 600 Mb/s + Telewizja (145)", ofertaWartosc: 600, umowa: "12 miesięcy", umowaWartosc: 12, cena: 94.90, promocje: [] },
 	{ firma: "JMDI", usluga: "Internet i Telewizja", oferta: "Dom Internet 800 Mb/s + Telewizja (171) + Eurosport + CANAL+ Super Sport", ofertaWartosc: 800, umowa: "12 miesięcy", umowaWartosc: 12, cena: 139.90, promocje: [] },
