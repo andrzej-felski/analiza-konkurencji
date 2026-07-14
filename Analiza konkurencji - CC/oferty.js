@@ -3113,7 +3113,63 @@ const daneOfert = [
 	{ firma: "Gorzowska Telewizja Przewodowa", usluga: "Telefon stacjonarny", oferta: "Telefonia GTP (300 minut na stacjonarne, 20 minut na komórki, 60 minut na międzynarodowe) (z 1 inną usługą)", ofertaWartosc: 300, umowa: "bezterminowa", umowaWartosc: 999, cena: 28.00, promocje: [] },
 	{ firma: "Gorzowska Telewizja Przewodowa", usluga: "Telefon stacjonarny", oferta: "Telefonia GTP (300 minut na stacjonarne, 20 minut na komórki, 60 minut na międzynarodowe) (z 2 innymi usługami)", ofertaWartosc: 300, umowa: "bezterminowa", umowaWartosc: 999, cena: 25.00, promocje: [] },
 	
+
+// Citylink
+	// Internet światłowodowy
+	{ firma: "Citylink", usluga: "Internet światłowodowy", oferta: "(Blok) 100 Mb/s", ofertaWartosc: 100, umowa: "24 miesiące", umowaWartosc: 24, cena: 45.00, promocje: [] },
+	{ firma: "Citylink", usluga: "Internet światłowodowy", oferta: "(Blok) 400 Mb/s", ofertaWartosc: 400, umowa: "24 miesiące", umowaWartosc: 24, cena: 50.00, promocje: [] },
+	{ firma: "Citylink", usluga: "Internet światłowodowy", oferta: "(Blok) 700 Mb/s", ofertaWartosc: 700, umowa: "24 miesiące", umowaWartosc: 24, cena: 60.00, promocje: [] },
+	{ firma: "Citylink", usluga: "Internet światłowodowy", oferta: "(Blok) 1 Gb/s ", ofertaWartosc: 1000, umowa: "24 miesiące", umowaWartosc: 24, cena: 70.00, promocje: [] },
+	{ firma: "Citylink", usluga: "Internet światłowodowy", oferta: "(Domki) 100 Mb/s", ofertaWartosc: 100, umowa: "24 miesiące", umowaWartosc: 24, cena: 60.00, promocje: [] },
+	{ firma: "Citylink", usluga: "Internet światłowodowy", oferta: "(Domki) 400 Mb/s", ofertaWartosc: 400, umowa: "24 miesiące", umowaWartosc: 24, cena: 75.00, promocje: [] },
+	{ firma: "Citylink", usluga: "Internet światłowodowy", oferta: "(Domki) 700 Mb/s", ofertaWartosc: 700, umowa: "24 miesiące", umowaWartosc: 24, cena: 85.00, promocje: [] },
+	{ firma: "Citylink", usluga: "Internet światłowodowy", oferta: "(Domki) 1 Gb/s ", ofertaWartosc: 1000, umowa: "24 miesiące", umowaWartosc: 24, cena: 100.00, promocje: [] },
 	
+	// Internet mobilny
+	{ firma: "Citylink", usluga: "Internet mobilny", oferta: "LTE OPTIMA (15 GB)", ofertaWartosc: 15, umowa: "bezterminowa", umowaWartosc: 999, cena: 22.00, promocje: [] },
+	{ firma: "Citylink", usluga: "Internet mobilny", oferta: "LTE OPTIMA (100 GB + 200 GB noc)", ofertaWartosc: 100, umowa: "bezterminowa", umowaWartosc: 999, cena: 45.00, promocje: [] },
+	
+	// Abonament komórkowy
+	{ firma: "Citylink", usluga: "Abonament komórkowy", oferta: "MINI (nielimitowane rozmowy, SMS 0,19zł, MMS 0,29zł, 20 GB internetu)", ofertaWartosc: 20, umowa: "bezterminowa", umowaWartosc: 999, cena: 15.00, promocje: [] },
+	{ firma: "Citylink", usluga: "Abonament komórkowy", oferta: "STANDARD (nielimitowane rozmowy, SMS i MMS, 40 GB internetu)", ofertaWartosc: 40, umowa: "bezterminowa", umowaWartosc: 999, cena: 25.00, promocje: [] },
+	{ firma: "Citylink", usluga: "Abonament komórkowy", oferta: "OPTIMA (nielimitowane rozmowy, SMS i MMS, 60 GB internetu)", ofertaWartosc: 60, umowa: "bezterminowa", umowaWartosc: 999, cena: 30.00, promocje: [] },
+	{ firma: "Citylink", usluga: "Abonament komórkowy", oferta: "ULTRA (nielimitowane rozmowy, SMS i MMS, 120 GB internetu)", ofertaWartosc: 120, umowa: "bezterminowa", umowaWartosc: 999, cena: 40.00, promocje: [] },
+	
+	// Internet i Telewizja
+	{ firma: "Citylink", usluga: "Internet i Telewizja", oferta: "(Blok) Internet 100 Mb/s + TV Na start (84)", ofertaWartosc: 100, umowa: "24 miesiące", umowaWartosc: 24, cena: 50.00, promocje: [] },
+	{ firma: "Citylink", usluga: "Internet i Telewizja", oferta: "(Blok) Internet 400 Mb/s + TV Na start (84)", ofertaWartosc: 400, umowa: "24 miesiące", umowaWartosc: 24, cena: 60.00, promocje: [] },
+	{ firma: "Citylink", usluga: "Internet i Telewizja", oferta: "(Blok) Internet 700 Mb/s + TV Korzystny (143)", ofertaWartosc: 700, umowa: "24 miesiące", umowaWartosc: 24, cena: 85.00, promocje: [] },
+	{ firma: "Citylink", usluga: "Internet i Telewizja", oferta: "(Blok) Internet 700 Mb/s + TV Bogaty (185)", ofertaWartosc: 700, umowa: "24 miesiące", umowaWartosc: 24, cena: 95.00, promocje: [] },
+	{ firma: "Citylink", usluga: "Internet i Telewizja", oferta: "(Blok) Internet 1 Gb/s + TV Bogaty (185)", ofertaWartosc: 1000, umowa: "24 miesiące", umowaWartosc: 24, cena: 110.00, promocje: [] },
+	{ firma: "Citylink", usluga: "Internet i Telewizja", oferta: "(Domki) Internet 100 Mb/s + TV Na start (84)", ofertaWartosc: 100, umowa: "24 miesiące", umowaWartosc: 24, cena: 70.00, promocje: [] },
+	{ firma: "Citylink", usluga: "Internet i Telewizja", oferta: "(Domki) Internet 400 Mb/s + TV Na start (84)", ofertaWartosc: 400, umowa: "24 miesiące", umowaWartosc: 24, cena: 85.00, promocje: [] },
+	{ firma: "Citylink", usluga: "Internet i Telewizja", oferta: "(Domki) Internet 700 Mb/s + TV Na start (84)", ofertaWartosc: 700, umowa: "24 miesiące", umowaWartosc: 24, cena: 95.00, promocje: [] },
+	{ firma: "Citylink", usluga: "Internet i Telewizja", oferta: "(Domki) Internet 1 Gb/s + TV Korzystny (143)", ofertaWartosc: 1000, umowa: "24 miesiące", umowaWartosc: 24, cena: 140.00, promocje: [] },
+	{ firma: "Citylink", usluga: "Internet i Telewizja", oferta: "(Domki) Internet 1 Gb/s + TV Bogaty (185)", ofertaWartosc: 1000, umowa: "24 miesiące", umowaWartosc: 24, cena: 160.00, promocje: [] },
+	
+
+// Air-Net
+	// Internet światłowodowy
+	{ firma: "Air-Net", usluga: "Internet światłowodowy", oferta: "300 Mb/s + Telewizja internetowa (78)", ofertaWartosc: 300, umowa: "24 miesiące", umowaWartosc: 24, cena: 79.00, promocje: [] },
+	{ firma: "Air-Net", usluga: "Internet światłowodowy", oferta: "600 Mb/s + Telewizja internetowa (78)", ofertaWartosc: 600, umowa: "24 miesiące", umowaWartosc: 24, cena: 95.00, promocje: [] },
+	{ firma: "Air-Net", usluga: "Internet światłowodowy", oferta: "900 Mb/s + Telewizja internetowa (78)", ofertaWartosc: 900, umowa: "24 miesiące", umowaWartosc: 24, cena: 105.00, promocje: [] },
+	
+	// Internet mobilny
+	{ firma: "Air-Net", usluga: "Internet mobilny", oferta: "LTE OPTIMA 5G (200 GB)", ofertaWartosc: 200, umowa: "24 miesiące", umowaWartosc: 24, cena: 59.00, promocje: [] },
+	{ firma: "Air-Net", usluga: "Internet mobilny", oferta: "LTE OPTIMA 5G (500 GB)", ofertaWartosc: 500, umowa: "24 miesiące", umowaWartosc: 24, cena: 74.90, promocje: [] },
+	
+	// Telewizja
+	{ firma: "Air-Net", usluga: "Telewizja", oferta: "Smart TV Podstawowy (79)", ofertaWartosc: 79, umowa: "24 miesiące", umowaWartosc: 24, cena: 34.90, promocje: [] },
+	{ firma: "Air-Net", usluga: "Telewizja", oferta: "Smart TV Korzystny (136)", ofertaWartosc: 136, umowa: "24 miesiące", umowaWartosc: 24, cena: 56.90, promocje: [] },
+	{ firma: "Air-Net", usluga: "Telewizja", oferta: "Smart TV Bogaty (179)", ofertaWartosc: 179, umowa: "24 miesiące", umowaWartosc: 24, cena: 66.90, promocje: [] },
+	
+	// Abonament komórkowy
+	{ firma: "Air-Net", usluga: "Abonament komórkowy", oferta: "MINI 5G (10 GB)", ofertaWartosc: 10, umowa: "24 miesiące", umowaWartosc: 24, cena: 19.90, promocje: [{ cena: 0.00, liczbaMiesiecy: 1 }] },
+	{ firma: "Air-Net", usluga: "Abonament komórkowy", oferta: "STANDARD 5G (40 GB)", ofertaWartosc: 40, umowa: "24 miesiące", umowaWartosc: 24, cena: 24.90, promocje: [{ cena: 0.00, liczbaMiesiecy: 1 }] },
+	{ firma: "Air-Net", usluga: "Abonament komórkowy", oferta: "OPTIMA 5G (60 GB)", ofertaWartosc: 60, umowa: "24 miesiące", umowaWartosc: 24, cena: 29.90, promocje: [{ cena: 0.00, liczbaMiesiecy: 1 }] },
+	{ firma: "Air-Net", usluga: "Abonament komórkowy", oferta: "ULTRA 5G (120 GB)", ofertaWartosc: 120, umowa: "24 miesiące", umowaWartosc: 24, cena: 39.90, promocje: [{ cena: 0.00, liczbaMiesiecy: 1 }] },
+	
+
 // Starlink
 	// Internet światłowodowy
 	{ firma: "Starlink", usluga: "Internet mobilny", oferta: "W DOMU 100 Mb/s - bez limitu", ofertaWartosc: 100, umowa: "bezterminowa", umowaWartosc: 999, cena: 135.00, promocje: [] },
