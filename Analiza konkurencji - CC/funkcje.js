@@ -31,7 +31,7 @@
 	const mapaKonkurencji = {
 		"Chopin": ["Orange", "T-Mobile", "Play", "Plus", "Netia", "Vectra", "INEA", "RFC", "plastCOM", "Tygrys.net", "LIMES", "HiSpeed", "Wave", "Starlink", "(hurtowe) Światłowód Inwestycje", "(hurtowe) Polski Światłowód Otwarty"],
 		"Pelmar": ["Orange", "T-Mobile", "Play", "Plus", "Netia", "INEA", "RFC", "JMDI", "GECKONET", "TELKAB", "Starlink", "(hurtowe) Światłowód Inwestycje", "(hurtowe) Polski Światłowód Otwarty"],
-		"Multimedia 2": ["Orange", "T-Mobile", "Play", "Plus", "Netia", "Vectra", "INEA", "RFC", "JMDI", "JPK", "Volta", "Abaks", "VLMedia", "mBit", "Pro Internet", "Starlink", "(hurtowe) Światłowód Inwestycje", "(hurtowe) Polski Światłowód Otwarty"],
+		"Multimedia 2": ["Orange", "T-Mobile", "Play", "Plus", "Netia", "Vectra", "INEA", "RFC", "JMDI", "JPK", "Volta", "Abaks", "VLMedia", "mBit", "Pro Internet", "Citylink", "Air-Net", "Starlink", "(hurtowe) Światłowód Inwestycje", "(hurtowe) Polski Światłowód Otwarty"],
 		"Multimedia 1 Stargard": ["Orange", "T-Mobile", "Play", "Plus", "Vectra", "INEA", "RFC", "JMDI", "Loonar", "TRIPLEMEDIA", "Sinusnet", "Starlink", "(hurtowe) Światłowód Inwestycje"],
 		"Multimedia 1 Olsztyn": ["Orange", "T-Mobile", "Play", "Plus", "Netia", "Vectra", "INEA", "RFC", "Tsunami", "MATCOM", "Intelly", "IVENDO", "Starlink", "(hurtowe) Światłowód Inwestycje", "(hurtowe) NEXERA", "(hurtowe) Polski Światłowód Otwarty"],
 		"Multimedia 1 Ostróda": ["Orange", "T-Mobile", "Play", "Plus", "Vectra", "INEA", "RFC", "MATCOM", "ELTRONIK", "IWKD", "Starlink", "(hurtowe) Światłowód Inwestycje", "(hurtowe) NEXERA", "(hurtowe) Polski Światłowód Otwarty"],
