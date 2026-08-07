@@ -1,0 +1,509 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    font-family:
+        "Segoe UI",
+        Arial,
+        sans-serif;
+    margin:0;
+    padding:30px 0 0 0;
+	display:flex;
+    flex-direction:column;
+    min-height:100vh;
+    background:
+        linear-gradient(
+            135deg,
+            #3f3f3f 0%,
+            #555 50%,
+            #3f3f3f 100%
+        );
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    color:#333;
+}
+
+.strona {
+    width:100%;
+    max-width:1200px;
+    margin:0 auto;
+    flex:1;
+}
+
+h1 {
+    text-align:center;
+    color:white;
+    font-size:32px;
+    margin-bottom:25px;
+}
+
+h2 {
+    margin-top:30px;
+}
+
+.panel {
+    background:
+        linear-gradient(
+            145deg,
+            #ffffff,
+            #f5f8fa
+        );
+    padding:25px;
+	margin:0 auto;
+    border-radius:16px;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+}
+
+.belka-wyboru {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+    padding:10px;
+}
+
+.wybor {
+    background:
+        linear-gradient(
+            145deg,
+            #ffffff,
+            #f1f5f8
+        );
+    border:1px solid #d5dce2;
+    border-radius:12px;
+    padding:15px 20px;
+    min-width:150px;
+    cursor:pointer;
+    text-align:center;
+    transition:.25s;
+    box-shadow:0 3px 10px rgba(0,0,0,.08);
+}
+
+.wybor:hover {
+    background:
+        linear-gradient(
+            145deg,
+            #ffffff,
+            #EBF2F7
+        );
+    transform:translateY(-3px);
+    border-color:#557C99;
+    box-shadow:0 8px 18px rgba(85,124,153,.25);
+}
+
+.wybor span {
+    display:block;
+    color:#777;
+    font-size:13px;
+}
+
+.wybor strong {
+    display:block;
+    margin-top:6px;
+    color:#375062;
+    font-size:16px;
+}
+
+.nieaktywne,
+.nieaktywne:hover {
+    background:#eee;
+    color:#999;
+    cursor:not-allowed;
+    opacity:.6;
+    transform:none!important;
+    box-shadow:none;
+}
+
+button {
+    background:
+        linear-gradient(
+            135deg,
+            #557C99,
+            #375062
+        );
+    color:white;
+    border:none;
+    border-radius:12px;
+    padding:14px 45px;
+    font-size:16px;
+    cursor:pointer;
+    display:block;
+    margin:25px auto 10px;
+    transition:.25s;
+    box-shadow:0 5px 15px rgba(85,124,153,.3);
+}
+
+button:hover {
+    background:
+        linear-gradient(
+            135deg,
+            #375062,
+            #253945
+        );
+    transform:translateY(-2px);
+}
+
+.modal {
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.55);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    z-index:9999;
+}
+
+.modal-tresc {
+    background:
+        linear-gradient(
+            145deg,
+            #ffffff,
+            #f4f8fb
+        );
+    width:420px;
+    max-width:90%;
+    padding:30px;
+    border-radius:16px;
+    box-shadow:0 20px 50px rgba(0,0,0,.3);
+    position:relative;
+}
+
+.zamknij {
+    position:absolute;
+    right:15px;
+    top:10px;
+    width:auto;
+    height:auto;
+    background:transparent;
+    color:#557C99;
+    border:none;
+    outline:none;
+    box-shadow:none;
+    padding:0;
+    margin:0;
+    font-size:30px;
+    font-weight:300;
+    line-height:1;
+    cursor:pointer;
+    transition:.2s;
+}
+
+.zamknij:hover {
+    background:transparent;
+    color:#375062;
+    transform:scale(1.15);
+}
+
+button.zamknij {
+    background:transparent;
+    box-shadow:none;
+}
+
+.ukryte {
+    display:none;
+}
+
+#tytulWyboru {
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.opcja-wyboru {
+    display:flex;
+    align-items:center;
+    gap:12px;
+    padding:15px;
+    margin:10px 0;
+    background:white;
+    border-radius:12px;
+    border:1px solid #ddd;
+    cursor:pointer;
+    transition:.2s;
+}
+
+.opcja-wyboru:hover {
+    background:#EBF2F7;
+    border-color:#557C99;
+}
+
+.opcja-wyboru:has(input:checked) {
+    background:#EBF2F7;
+    border-color:#557C99;
+    box-shadow:0 0 0 3px rgba(85,124,153,.15);
+}
+
+.opcja-wyboru input {
+    accent-color:#557C99;
+}
+
+#listaWyboru {
+    max-height:450px;
+    overflow:auto;
+}
+
+.oferta {
+    background:#E0F3FF;
+    border-radius:16px;
+    padding:25px;
+    margin-top:25px;
+}
+
+.akordeon {
+    margin:18px 0;
+    border-radius:16px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.12);
+}
+
+.akordeon-naglowek {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:20px;
+    padding:20px;
+    background:
+        linear-gradient(
+            90deg,
+            #f3f6f8,
+            #ffffff
+        );
+    cursor:pointer;
+    transition:.25s;
+}
+
+.naglowek-lewa {
+    display:flex;
+    flex-direction:column;
+    gap:5px;
+}
+
+.naglowek-lewa strong {
+    background:
+        linear-gradient(
+            90deg,
+            #557C99,
+            #375062
+        );
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    font-size:18px;
+}
+
+.naglowek-prawa {
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+    gap:5px;
+}
+
+.strzalka {
+    transition:.3s;
+}
+
+.akordeon.otwarty .strzalka {
+    transform:rotate(180deg);
+}
+
+.akordeon-tresc {
+    background:white;
+    display:flex;
+    max-height:0;
+    overflow:hidden;
+    opacity:0;
+    transition:.4s ease;
+}
+
+.akordeon.otwarty .akordeon-tresc {
+    max-height:1000px;
+    opacity:1;
+    padding:0 25px 25px 25px;
+}
+
+.tresc-lewa,
+.tresc-prawa {
+    flex:1;
+    padding:0 25px;
+}
+
+.tresc-lewa {
+    width:50%;
+    border-right:1px solid #ddd;
+    padding-right:30px;
+}
+
+.tresc-prawa {
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:flex-start;
+}
+
+.tresc-prawa table,
+.porownanie {
+	width: 100%;
+    table-layout: fixed;
+    border-collapse:separate;
+    border-spacing:0;
+    border-radius:12px;
+    overflow:hidden;
+    border:1px solid #ddd;
+}
+
+table {
+    border-collapse:collapse;
+    width:100%;
+}
+
+.porownanie th:nth-child(1),
+.porownanie td:nth-child(1) {
+    width: 90px;
+}
+
+.porownanie th:nth-child(2),
+.porownanie td:nth-child(2),
+.porownanie th:nth-child(4),
+.porownanie td:nth-child(4) {
+    width: 110px;
+}
+
+.porownanie th:nth-child(3),
+.porownanie td:nth-child(3) {
+    width: 30px;
+}
+
+td,
+th {
+    padding:10px;
+    border-right:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+}
+
+.porownanie td,
+.porownanie th {
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+.porownanie th {
+    background:
+        linear-gradient(
+            180deg,
+            #f8fafc,
+            #e8eef3
+        );
+}
+
+tr:last-child td {
+    border-bottom:none;
+}
+
+td:last-child,
+th:last-child {
+    border-right:none;
+}
+
+.porownanie {
+    border-radius:12px;
+    overflow:hidden;
+}
+
+.porownanie .drozsza {
+    background:#ffdada;
+    color:#9b0000;
+    font-weight:bold;
+}
+
+.porownanie .tansza {
+    background:#dff7df;
+    color:#006b00;
+    font-weight:bold;
+}
+
+.wiersz-srednia {
+    font-weight:bold;
+}
+
+.akordeon-naglowek.konkurencja-drozsza {
+    background:
+        linear-gradient(
+            90deg,
+            #e8ffe8,
+            #ffffff
+        );
+}
+
+.akordeon-naglowek.konkurencja-tansza {
+    background:
+        linear-gradient(
+            90deg,
+            #ffe4e4,
+            #ffffff
+        );
+}
+
+.oferty-konkurencji {
+	text-align:center;
+}
+
+.oferty-konkurencji h2 {
+	color:#fff;
+	margin-bottom:10px;
+}
+
+.oferty-konkurencji p {
+	color:#fff;
+	font-weight:600;
+	margin-top:0;
+	margin-bottom:35px;
+}
+
+.brak-konkurencji {
+    text-align:center;
+    color:white;
+    font-size:18px;
+}
+
+#stopka {
+	background: #333 !important;
+	color: white;
+	text-align: left;
+	padding: 10px 0px;
+	margin-top: auto;
+	font-family: 'Arial', sans-serif;
+	border-top: solid 1px #e0e0e0;
+	text-align: center;
+}
+
+@media(max-width:700px){
+    body {
+        padding:15px;
+    }
+
+    .akordeon-naglowek {
+        flex-direction:column;
+        align-items:flex-start;
+    }
+
+    .naglowek-prawa {
+        align-items:flex-start;
+    }
+
+    .akordeon-tresc {
+        flex-direction:column;
+    }
+	
+    .tresc-lewa {
+        border-right:none;
+        border-bottom:1px solid #ddd;
+        padding-bottom:20px;
+    }
+	
+    .tresc-lewa,
+    .tresc-prawa {
+		width:100%;
+        padding:20px 0;
+    }
+}
