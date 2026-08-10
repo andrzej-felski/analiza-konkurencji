@@ -581,7 +581,7 @@ async function pokazWynik(oferta, konkurenci){
 		oferta
 	);
 	const data = await pobierzDateOstatniejZmiany(
-		"andrzej-felski/nowa-analiza",
+		"andrzej-felski/analiza-konkurencji",
 		"dane"
 	);
 	html += `
