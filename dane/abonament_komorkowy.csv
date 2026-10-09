@@ -1,165 +1,164 @@
-ï»¿id_oferty;id_firmy;okres_umowy;grupa_okresu;nazwa_oferty;nazwa_pakietu;pakiet_gb;grupa_porownawcza;dodatki;uwagi;okres_od_1;okres_do_1;cena_1;okres_od_2;okres_do_2;cena_2
-1;CHOPIN;24;24;FON MOBIL;FON S;11;11;;cena z rabatem za e-fakturÄ™;1;24;32.57;;;
-2;CHOPIN;24;24;FON MOBIL;FON M;21;21;;cena z rabatem za e-fakturÄ™;1;24;40.57;;;
-3;CHOPIN;24;24;FON MOBIL;FON L;31;31;;cena z rabatem za e-fakturÄ™;1;24;47.57;;;
-4;CHOPIN;24;24;FON MOBIL;FON XL;100;100;;cena z rabatem za e-fakturÄ™;1;24;62.57;;;
-5;CHOPIN;24;24;FON MOBIL;FON EURO;7;7;1 GB w roamingu;cena z rabatem za e-fakturÄ™;1;24;62.48;;;
-6;MC2;24;24;FON Mobil;FON Senior;0;7;;cena z rabatem za e-fakturÄ™;1;24;32.48;;;
-7;MC2;24;24;FON Mobil;FON NORMALNY+;21;21;;cena z rabatem za e-fakturÄ™;1;24;36.57;;;
-8;MC2;24;24;FON Mobil;FON NORMALNY+;31;31;;cena z rabatem za e-fakturÄ™;1;24;42.57;;;
-9;MC2;24;24;FON Mobil;FON NORMALNY;100;100;;cena z rabatem za e-fakturÄ™;1;24;62.57;;;
-10;MC2;24;24;FON Mobil;FON EURO;7;7;1 GB w roamingu;cena z rabatem za e-fakturÄ™;1;24;62.48;;;
-11;MC1_OLSZTYN;24;24;Promocja 4 miesiÄ…ce za 1 zÅ‚;Abonament komÃ³rkowy;10;11;;cena z rabatem za e-fakturÄ™;1;4;1.00;5;24;24.98
-12;MC1_OLSZTYN;24;24;Promocja 4 miesiÄ…ce za 1 zÅ‚;Abonament komÃ³rkowy;30;31;;cena z rabatem za e-fakturÄ™;1;4;1.00;5;24;34.98
-13;MC1_OLSZTYN;24;24;Promocja 4 miesiÄ…ce za 1 zÅ‚;Abonament komÃ³rkowy;60;31;;cena z rabatem za e-fakturÄ™;1;4;1.00;5;24;44.98
-14;MC1_OLSZTYN;24;24;multiMOBILNY;Abonament komÃ³rkowy;10;11;;cena z rabatem za e-fakturÄ™;1;24;22.98;;;
-15;MC1_OLSZTYN;24;24;multiMOBILNY;Abonament komÃ³rkowy;30;31;;cena z rabatem za e-fakturÄ™;1;24;32.97;;;
-16;MC1_OLSZTYN;24;24;multiMOBILNY;Abonament komÃ³rkowy;60;31;;cena z rabatem za e-fakturÄ™;1;24;42.97;;;
-17;MC1_OLSZTYN;999;999;multiMOBILNY;Abonament komÃ³rkowy;10;11;;cena z rabatem za e-fakturÄ™;1;999;24.98;;;
-18;MC1_OLSZTYN;999;999;multiMOBILNY;Abonament komÃ³rkowy;30;31;;cena z rabatem za e-fakturÄ™;1;999;34.98;;;
-19;MC1_OLSZTYN;999;999;multiMOBILNY;Abonament komÃ³rkowy;60;31;;cena z rabatem za e-fakturÄ™;1;999;44.98;;;
-20;MC1_STARGARD;24;24;Promocja 4 miesiÄ…ce za 1 zÅ‚;Abonament komÃ³rkowy;10;11;;cena z rabatem za e-fakturÄ™;1;4;1.00;5;24;24.98
-21;MC1_STARGARD;24;24;Promocja 4 miesiÄ…ce za 1 zÅ‚;Abonament komÃ³rkowy;30;31;;cena z rabatem za e-fakturÄ™;1;4;1.00;5;24;34.98
-22;MC1_STARGARD;24;24;Promocja 4 miesiÄ…ce za 1 zÅ‚;Abonament komÃ³rkowy;60;31;;cena z rabatem za e-fakturÄ™;1;4;1.00;5;24;44.98
-23;MC1_STARGARD;24;24;multiMOBILNY;Abonament komÃ³rkowy;10;11;;cena z rabatem za e-fakturÄ™;1;24;22.98;;;
-24;MC1_STARGARD;24;24;multiMOBILNY;Abonament komÃ³rkowy;30;31;;cena z rabatem za e-fakturÄ™;1;24;32.97;;;
-25;MC1_STARGARD;24;24;multiMOBILNY;Abonament komÃ³rkowy;60;31;;cena z rabatem za e-fakturÄ™;1;24;42.97;;;
-26;MC1_STARGARD;999;999;multiMOBILNY;Abonament komÃ³rkowy;10;11;;cena z rabatem za e-fakturÄ™;1;999;24.98;;;
-27;MC1_STARGARD;999;999;multiMOBILNY;Abonament komÃ³rkowy;30;31;;cena z rabatem za e-fakturÄ™;1;999;34.98;;;
-28;MC1_STARGARD;999;999;multiMOBILNY;Abonament komÃ³rkowy;60;31;;cena z rabatem za e-fakturÄ™;1;999;44.98;;;
-29;MC1_OSTRODA;24;24;Promocja 4 miesiÄ…ce za 1 zÅ‚;Abonament komÃ³rkowy;10;11;;cena z rabatem za e-fakturÄ™;1;4;1.00;5;24;24.98
-30;MC1_OSTRODA;24;24;Promocja 4 miesiÄ…ce za 1 zÅ‚;Abonament komÃ³rkowy;30;31;;cena z rabatem za e-fakturÄ™;1;4;1.00;5;24;34.98
-31;MC1_OSTRODA;24;24;Promocja 4 miesiÄ…ce za 1 zÅ‚;Abonament komÃ³rkowy;60;31;;cena z rabatem za e-fakturÄ™;1;4;1.00;5;24;44.98
-32;MC1_OSTRODA;24;24;multiMOBILNY;Abonament komÃ³rkowy;10;11;;cena z rabatem za e-fakturÄ™;1;24;22.98;;;
-33;MC1_OSTRODA;24;24;multiMOBILNY;Abonament komÃ³rkowy;30;31;;cena z rabatem za e-fakturÄ™;1;24;32.97;;;
-34;MC1_OSTRODA;24;24;multiMOBILNY;Abonament komÃ³rkowy;60;31;;cena z rabatem za e-fakturÄ™;1;24;42.97;;;
-35;MC1_OSTRODA;999;999;multiMOBILNY;Abonament komÃ³rkowy;10;11;;cena z rabatem za e-fakturÄ™;1;999;24.98;;;
-36;MC1_OSTRODA;999;999;multiMOBILNY;Abonament komÃ³rkowy;30;31;;cena z rabatem za e-fakturÄ™;1;999;34.98;;;
-37;MC1_OSTRODA;999;999;multiMOBILNY;Abonament komÃ³rkowy;60;31;;cena z rabatem za e-fakturÄ™;1;999;44.98;;;
-38;MC1_LOWICZ;24;24;Promocja 4 miesiÄ…ce za 1 zÅ‚;Abonament komÃ³rkowy;10;11;;cena z rabatem za e-fakturÄ™;1;4;1.00;5;24;24.98
-39;MC1_LOWICZ;24;24;Promocja 4 miesiÄ…ce za 1 zÅ‚;Abonament komÃ³rkowy;30;31;;cena z rabatem za e-fakturÄ™;1;4;1.00;5;24;34.98
-40;MC1_LOWICZ;24;24;Promocja 4 miesiÄ…ce za 1 zÅ‚;Abonament komÃ³rkowy;60;31;;cena z rabatem za e-fakturÄ™;1;4;1.00;5;24;44.98
-41;MC1_LOWICZ;24;24;multiMOBILNY;Abonament komÃ³rkowy;10;11;;cena z rabatem za e-fakturÄ™;1;24;22.98;;;
-42;MC1_LOWICZ;24;24;multiMOBILNY;Abonament komÃ³rkowy;30;31;;cena z rabatem za e-fakturÄ™;1;24;32.97;;;
-43;MC1_LOWICZ;24;24;multiMOBILNY;Abonament komÃ³rkowy;60;31;;cena z rabatem za e-fakturÄ™;1;24;42.97;;;
-44;MC1_LOWICZ;999;999;multiMOBILNY;Abonament komÃ³rkowy;10;11;;cena z rabatem za e-fakturÄ™;1;999;24.98;;;
-45;MC1_LOWICZ;999;999;multiMOBILNY;Abonament komÃ³rkowy;30;31;;cena z rabatem za e-fakturÄ™;1;999;34.98;;;
-46;MC1_LOWICZ;999;999;multiMOBILNY;Abonament komÃ³rkowy;60;31;;cena z rabatem za e-fakturÄ™;1;999;44.98;;;
-47;MC1_KWIDZYN;24;24;Promocja 4 miesiÄ…ce za 1 zÅ‚;Abonament komÃ³rkowy;10;11;;cena z rabatem za e-fakturÄ™;1;4;1.00;5;24;24.98
-48;MC1_KWIDZYN;24;24;Promocja 4 miesiÄ…ce za 1 zÅ‚;Abonament komÃ³rkowy;30;31;;cena z rabatem za e-fakturÄ™;1;4;1.00;5;24;34.98
-49;MC1_KWIDZYN;24;24;Promocja 4 miesiÄ…ce za 1 zÅ‚;Abonament komÃ³rkowy;60;31;;cena z rabatem za e-fakturÄ™;1;4;1.00;5;24;44.98
-50;MC1_KWIDZYN;24;24;multiMOBILNY;Abonament komÃ³rkowy;10;11;;cena z rabatem za e-fakturÄ™;1;24;22.98;;;
-51;MC1_KWIDZYN;24;24;multiMOBILNY;Abonament komÃ³rkowy;30;31;;cena z rabatem za e-fakturÄ™;1;24;32.97;;;
-52;MC1_KWIDZYN;24;24;multiMOBILNY;Abonament komÃ³rkowy;60;31;;cena z rabatem za e-fakturÄ™;1;24;42.97;;;
-53;MC1_KWIDZYN;999;999;multiMOBILNY;Abonament komÃ³rkowy;10;11;;cena z rabatem za e-fakturÄ™;1;999;24.98;;;
-54;MC1_KWIDZYN;999;999;multiMOBILNY;Abonament komÃ³rkowy;30;31;;cena z rabatem za e-fakturÄ™;1;999;34.98;;;
-55;MC1_KWIDZYN;999;999;multiMOBILNY;Abonament komÃ³rkowy;60;31;;cena z rabatem za e-fakturÄ™;1;999;44.98;;;
-56;JIM-SAT;999;999;Abonament komÃ³rkowy;Znakomita 5G;5;7;SMS za 0,19 zÅ‚;cena z rabatem za e-fakturÄ™;1;999;12.99;;;
-57;JIM-SAT;999;999;Abonament komÃ³rkowy;DoskonaÅ‚a 5G;20;21;;cena z rabatem za e-fakturÄ™;1;999;17.99;;;
-58;JIM-SAT;999;999;Abonament komÃ³rkowy;Idealna 5G;50;31;;cena z rabatem za e-fakturÄ™;1;999;24.99;;;
-59;JIM-SAT;999;999;Abonament komÃ³rkowy;Mega 5G;100;100;;cena z rabatem za e-fakturÄ™;1;999;34.99;;;
-60;ORANGE;999;999;Subskrypcja;Orange flex;75;100;1 dodatkowa karta SIM/eSIM, 12,03 GB w roamingu w UE;cena z rabatami;1;999;35.00;;;
-61;ORANGE;999;999;Subskrypcja;Orange flex;150;100;2 dodatkowe karty SIM/eSIM, 17,18 GB w roamingu w UE;cena z rabatami;1;999;50.00;;;
-62;ORANGE;999;999;Subskrypcja;Orange flex;9999;100;3 dodatkowe karty SIM/eSIM, 27,49 GB w roamingu w UE;cena z rabatami;1;999;80.00;;;
-63;ORANGE;24;24;Abonament komÃ³rkowy;Plan XS;20;21;;cena z rabatami;1;24;45.00;;;
-64;ORANGE;24;24;Abonament komÃ³rkowy;Plan S;150;100;Orange TV Go;cena z rabatami;1;5;0.00;6;24;70.00
-65;ORANGE;24;24;Abonament komÃ³rkowy;Plan M;500;100;Orange TV Go;cena z rabatami;1;24;80.00;;;
-66;ORANGE;24;24;Abonament komÃ³rkowy;Plan L;9999;100;Orange TV Go;cena z rabatami;1;24;100.00;;;
-67;T-MOBILE;24;24;Abonament komÃ³rkowy;Oferta Nielimitowana;9999;100;;cena z rabatami;1;24;75.00;;;
-68;PLAY;24;24;Abonament komÃ³rkowy;Oferta S;15;11;;cena z rabatami;1;24;45.00;;;
-69;PLAY;24;24;Abonament komÃ³rkowy;Oferta S+;50;31;;cena z rabatami;1;24;70.00;;;
-70;PLAY;24;24;Abonament komÃ³rkowy;Oferta M;300;100;;cena z rabatami;1;3;0.00;4;24;80.00
-71;PLAY;24;24;Abonament komÃ³rkowy;Oferta L;9999;100;;cena z rabatami;1;6;0.00;7;24;100.00
-72;PLAY;24;24;Abonament komÃ³rkowy;Oferta HOMEBOX;9999;100;1 dodatkowa karta SIM;cena z rabatami;1;6;0.00;7;24;130.00
-73;PLUS;24;24;Abonament komÃ³rkowy;Oferta S;6;7;13,78 GB w roamingu w UE;cena z rabatami;1;24;40.00;;;
-74;PLUS;24;24;Abonament komÃ³rkowy;Ofert M;60;31;20,61 GB w roamingu w UE;cena z rabatami;1;24;60.00;;;
-75;PLUS;24;24;Promocja L w cenie M;Oferta L;9999;100;20,61 GB w roamingu w UE;cena z rabatami;1;24;60.00;;;
-76;NETIA;24;24;Nowy numer dla nowych;Super 5G;60;31;;cena z rabatami;1;24;55.00;;;
-77;NETIA;24;24;Nowy numer dla nowych;VIP 5G;100;100;;cena z rabatami;1;24;65.00;;;
-78;NETIA;24;24;Nowy numer dla nowych;Bez limitu GB 5G;9999;100;;cena z rabatami;1;24;85.00;;;
-79;NETIA;24;24;Przeniesienie numeru dla nowych;Super 5G;60;31;;cena z rabatami;1;3;1.00;4;24;55.00
-80;NETIA;24;24;Przeniesienie numeru dla nowych;VIP 5G;100;100;;cena z rabatami;1;3;1.00;4;24;65.00
-81;NETIA;24;24;Przeniesienie numeru dla nowych;Bez limitu GB 5G;9999;100;;cena z rabatami;1;3;1.00;4;24;65.00
-82;NETIA;24;24;Nowy numer dla obecnych;Super 5G;60;31;;cena z rabatami;1;24;30.00;;;
-83;NETIA;24;24;Nowy numer dla obecnych;VIP 5G;100;100;;cena z rabatami;1;24;40.00;;;
-84;NETIA;24;24;Nowy numer dla obecnych;Bez limitu GB 5G;9999;100;;cena z rabatami;1;24;60.00;;;
-85;NETIA;24;24;Przeniesienie numeru dla obecnych;Super 5G;60;31;;cena z rabatami;1;3;1.00;4;24;30.00
-86;NETIA;24;24;Przeniesienie numeru dla obecnych;VIP 5G;100;100;;cena z rabatami;1;3;1.00;4;24;40.00
-87;NETIA;24;24;Przeniesienie numeru dla obecnych;Bez limitu GB 5G;9999;100;;cena z rabatami;1;3;1.00;4;24;60.00
-88;VECTRA;23;24;Dla przenoszÄ…cych numer;Plan M;60;31;;cena z rabatami;1;6;0.00;7;23;35.00
-89;VECTRA;23;24;Dla przenoszÄ…cych numer;Plan M;60;31;Netflix;cena z rabatami;1;6;33.00;7;23;68.00
-90;VECTRA;23;24;Dla przenoszÄ…cych numer;Plan M;60;31;HBO Max;cena z rabatami;1;6;33.00;7;23;68.00
-91;VECTRA;23;24;Dla przenoszÄ…cych numer;Plan M;60;31;Disney+;cena z rabatami;1;6;33.00;7;23;68.00
-92;VECTRA;23;24;Dla przenoszÄ…cych numer;Plan L;100;100;;cena z rabatami;1;6;0.00;7;23;45.00
-93;VECTRA;23;24;Dla przenoszÄ…cych numer;Plan XL;200;100;;cena z rabatami;1;6;0.00;7;23;75.00
-94;VECTRA;999;999;Abonament komÃ³rkowy;Plan S;10;11;;cena z rabatami;1;999;15.00;;;
-95;VECTRA;999;999;Abonament komÃ³rkowy;Plan M;30;31;;cena z rabatami;1;999;20.00;;;
-96;VECTRA;999;999;Abonament komÃ³rkowy;Plan M;60;31;;cena z rabatami;1;999;35.00;;;
-97;VECTRA;999;999;Abonament komÃ³rkowy;Plan M;60;31;Netflix;cena z rabatami;1;999;68.00;;;
-98;VECTRA;999;999;Abonament komÃ³rkowy;Plan M;60;31;HBO Max;cena z rabatami;1;999;68.00;;;
-99;VECTRA;999;999;Abonament komÃ³rkowy;Plan M;60;31;Disney+;cena z rabatami;1;999;68.00;;;
-100;VECTRA;999;999;Abonament komÃ³rkowy;Plan L;100;100;;cena z rabatami;1;999;45.00;;;
-101;VECTRA;999;999;Abonament komÃ³rkowy;Plan XL;200;100;;cena z rabatami;1;999;75.00;;;
-102;INEA;999;999;INEA Mobile;No Limit 20 GB FREE;20;21;8,72 GB w roamingu w UE;cena z rabatami;1;999;30.00;;;
-103;INEA;999;999;INEA Mobile;No Limit 50 GB FREE;50;31;11,63 GB w roamingu w UE;cena z rabatami;1;999;40.00;;;
-104;INEA;999;999;INEA Mobile;No Limit 100 GB FREE;100;100;14,53 GB w roamingu w UE;cena z rabatami;1;999;50.00;;;
-105;INEA;999;999;INEA Mobile;No Limit 200 GB FREE;200;100;17,44 GB w roamingu w UE;cena z rabatami;1;999;60.00;;;
-106;INEA;999;999;INEA Mobile;No Limit 500 GB FREE;500;100;23,26 GB w roamingu w UE;cena z rabatami;1;999;80.00;;;
-107;JMDI;24;24;Abonament komÃ³rkowy;Plan Junior;2;7;;cena z rabatami;1;24;19.90;;;
-108;JMDI;24;24;Abonament komÃ³rkowy;Plan Multi 10;10;11;;cena z rabatami;1;24;29.90;;;
-109;JMDI;24;24;Abonament komÃ³rkowy;Plan Multi 20;20;21;;cena z rabatami;1;24;44.90;;;
-110;JPK;24;24;Pakiety komÃ³rkowe;Abonament komÃ³rkowy;2;7;;;1;24;9.99;;;
-111;JPK;24;24;Pakiety komÃ³rkowe;Abonament komÃ³rkowy;5;7;;;1;24;14.99;;;
-112;JPK;24;24;Pakiety komÃ³rkowe;Abonament komÃ³rkowy;10;11;;;1;24;19.99;;;
-113;JPK;24;24;Pakiety komÃ³rkowe;Abonament komÃ³rkowy;25;21;;;1;24;25.99;;;
-114;JPK;24;24;Pakiety komÃ³rkowe;Abonament komÃ³rkowy;50;31;;;1;24;35.99;;;
-115;JPK;24;24;Pakiety komÃ³rkowe;Abonament komÃ³rkowy;100;100;;;1;24;45.99;;;
-116;JPK;24;24;Pakiety komÃ³rkowe;Abonament komÃ³rkowy;200;100;;;1;24;55.99;;;
-117;JPK;24;24;Pakiety komÃ³rkowe;Abonament komÃ³rkowy;300;100;;;1;24;63.99;;;
-118;JPK;24;24;Pakiety komÃ³rkowe;Abonament komÃ³rkowy;500;100;;;1;24;77.99;;;
-119;GECKONET;24;24;Abonament komÃ³rkowy;Single;25;21;;;1;24;29.99;;;
-120;GECKONET;24;24;Abonament komÃ³rkowy;Family;25;21;kaÅ¼dy kolejny numer za 24,99 zÅ‚;;1;24;29.99;;;
-121;NORTIS;24;24;Abonament komÃ³rkowy;Standard;40;31;;;1;24;24.90;;;
-122;NORTIS;24;24;Abonament komÃ³rkowy;Optima;60;31;;;1;24;29.90;;;
-123;NORTIS;24;24;Abonament komÃ³rkowy;Ultra;120;100;;;1;24;39.90;;;
-124;PLASTCOM;24;24;Abonament komÃ³rkowy;Mini;20;21;;;1;24;14.90;;;
-125;PLASTCOM;24;24;Abonament komÃ³rkowy;Standard;40;31;;;1;24;24.90;;;
-126;PLASTCOM;24;24;Abonament komÃ³rkowy;Optima;60;31;;;1;24;29.90;;;
-127;PLASTCOM;24;24;Abonament komÃ³rkowy;Ultra;120;100;;;1;24;39.90;;;
-128;TYGRYS;24;24;Abonament komÃ³rkowy;Mini;20;21;;;1;24;14.90;;;
-129;TYGRYS;24;24;Abonament komÃ³rkowy;Standard;40;31;;;1;24;24.90;;;
-130;TYGRYS;24;24;Abonament komÃ³rkowy;Optima;60;31;;;1;24;29.90;;;
-131;TYGRYS;24;24;Abonament komÃ³rkowy;Ultra;120;100;;;1;24;39.90;;;
-132;TRIPLEMEDIA;24;24;Abonament komÃ³rkowy;MINI;5;7;;;1;24;20.00;;;
-133;TRIPLEMEDIA;24;24;Abonament komÃ³rkowy;STANDARD;10;11;;;1;24;25.00;;;
-134;TRIPLEMEDIA;24;24;Abonament komÃ³rkowy;OPTIMA;25;21;;;1;24;35.00;;;
-135;TRIPLEMEDIA;24;24;Abonament komÃ³rkowy;ULTRA;50;31;;;1;24;45.00;;;
-136;SINUSNET;24;24;Sinus Mobile;Pakiet 2;2;7;;;1;24;14.99;;;
-137;SINUSNET;24;24;Sinus Mobile;Pakiet 5;5;7;;;1;24;20.00;;;
-138;SINUSNET;24;24;Sinus Mobile;Pakiet 10;10;11;;;1;24;25.00;;;
-139;SINUSNET;24;24;Sinus Mobile;Pakiet 25;25;21;;;1;24;35.00;;;
-140;SINUSNET;24;24;Sinus Mobile;Pakiet 50;50;31;;;1;24;45.00;;;
-141;SINUSNET;24;24;Sinus Mobile;Pakiet 100;100;100;;;1;24;55.00;;;
-142;SINUSNET;24;24;Sinus Mobile;Pakiet 200;200;100;;;1;24;67.00;;;
-143;SINUSNET;24;24;Sinus Mobile;Pakiet 300;300;100;;;1;24;80.00;;;
-144;SINUSNET;24;24;Sinus Mobile;Pakiet 500;500;100;;;1;24;90.00;;;
-145;IWKD;24;24;Abonament komÃ³rkowy;MINI;20;21;;;1;24;19.90;;;
-146;IWKD;24;24;Abonament komÃ³rkowy;STANDARD;40;31;;;1;24;29.90;;;
-147;IWKD;24;24;Abonament komÃ³rkowy;OPTIMA;60;31;;;1;24;34.90;;;
-148;IWKD;24;24;Abonament komÃ³rkowy;ULTRA;120;100;;;1;24;44.90;;;
-149;MPCNET;999;999;Abonament komÃ³rkowy;No Limit;0;7;;;1;999;15.00;;;
-150;MPCNET;999;999;Abonament komÃ³rkowy;No Limit;2;7;;;1;999;25.00;;;
-151;MPCNET;999;999;Abonament komÃ³rkowy;No Limit;5;7;;;1;999;30.000;;;
-152;MPCNET;999;999;Abonament komÃ³rkowy;No Limit;10;11;;;1;999;35.00;;;
-153;MPCNET;999;999;Abonament komÃ³rkowy;No Limit;25;21;;;1;999;40.00;;;
-154;MPCNET;999;999;Abonament komÃ³rkowy;No Limit;50;31;;;1;999;45.00;;;
-155;MPCNET;999;999;Abonament komÃ³rkowy;No Limit;100;100;;;1;999;55.00;;;
-156;MPCNET;999;999;Abonament komÃ³rkowy;No Limit;200;100;;;1;999;65.00;;;
-157;CITYLINK;999;999;Abonament komÃ³rkowy;MINI;20;21;SMS za 0,19 zÅ‚, MMS za 0,29 zÅ‚;;1;999;15.00;;;
-158;CITYLINK;999;999;Abonament komÃ³rkowy;STANDARD;40;31;;;1;999;25.00;;;
-159;CITYLINK;999;999;Abonament komÃ³rkowy;OPTIMA;60;31;;;1;999;30.00;;;
-160;CITYLINK;999;999;Abonament komÃ³rkowy;ULTRA;120;100;;;1;999;40.00;;;
-161;AIR-NET;24;24;Abonament komÃ³rkowy;MINI 5G;10;11;;;1;1;0.00;2;24;19.90
-162;AIR-NET;24;24;Abonament komÃ³rkowy;STANDARD 5G;40;31;;;1;1;0.00;2;24;24.90
-163;AIR-NET;24;24;Abonament komÃ³rkowy;OPTIMA 5G;60;31;;;1;1;0.00;2;24;29.90
-164;AIR-NET;24;24;Abonament komÃ³rkowy;ULTRA 5G;120;100;;;1;1;0.00;2;24;39.90
+id_oferty;id_firmy;okres_umowy;grupa_okresu;nazwa_oferty;nazwa_pakietu;pakiet_gb;grupa_porownawcza;dodatki;uwagi;okres_od_1;okres_do_1;cena_1;okres_od_2;okres_do_2;cena_2;okres_od_3;okres_do_3;cena_3;okres_od_4;okres_do_4;cena_4
+1;AIR-NET;24;24;Abonament komórkowy;MINI 5G;10;11;;;1;1;0;2;24;19.9;;;;;;
+2;AIR-NET;24;24;Abonament komórkowy;STANDARD 5G;40;31;;;1;1;0;2;24;24.9;;;;;;
+3;AIR-NET;24;24;Abonament komórkowy;OPTIMA 5G;60;31;;;1;1;0;2;24;29.9;;;;;;
+4;AIR-NET;24;24;Abonament komórkowy;ULTRA 5G;120;100;;;1;1;0;2;24;39.9;;;;;;
+5;CHOPIN;24;24;FON MOBIL;FON EURO;7;7;1 GB w roamingu;cena z rabatem za e-fakturê;1;24;62.48;;;;;;;;;
+6;CHOPIN;24;24;FON MOBIL;FON S;11;11;;cena z rabatem za e-fakturê;1;24;32.57;;;;;;;;;
+7;CHOPIN;24;24;FON MOBIL;FON M;21;21;;cena z rabatem za e-fakturê;1;24;40.57;;;;;;;;;
+8;CHOPIN;24;24;FON MOBIL;FON L;31;31;;cena z rabatem za e-fakturê;1;24;47.57;;;;;;;;;
+9;CHOPIN;24;24;FON MOBIL;FON XL;100;100;;cena z rabatem za e-fakturê;1;24;62.57;;;;;;;;;
+10;CITYLINK;999;999;Abonament komórkowy;MINI;20;21;SMS za 0.19 z³. MMS za 0.29 z³;;1;999;15;;;;;;;;;
+11;CITYLINK;999;999;Abonament komórkowy;STANDARD;40;31;;;1;999;25;;;;;;;;;
+12;CITYLINK;999;999;Abonament komórkowy;OPTIMA;60;31;;;1;999;30;;;;;;;;;
+13;CITYLINK;999;999;Abonament komórkowy;ULTRA;120;100;;;1;999;40;;;;;;;;;
+14;GECKONET;24;24;Abonament komórkowy;Single;25;21;;;1;24;29.99;;;;;;;;;
+15;GECKONET;24;24;Abonament komórkowy;Family;25;21;ka¿dy kolejny numer za 24.99 z³;;1;24;29.99;;;;;;;;;
+16;INEA;999;999;INEA Mobile;No Limit 20 GB FREE;20;21;8.72 GB w roamingu w UE;cena z rabatami;1;999;30;;;;;;;;;
+17;INEA;999;999;INEA Mobile;No Limit 50 GB FREE;50;31;11.63 GB w roamingu w UE;cena z rabatami;1;999;40;;;;;;;;;
+18;INEA;999;999;INEA Mobile;No Limit 100 GB FREE;100;100;14.53 GB w roamingu w UE;cena z rabatami;1;999;50;;;;;;;;;
+19;INEA;999;999;INEA Mobile;No Limit 200 GB FREE;200;100;17.44 GB w roamingu w UE;cena z rabatami;1;999;60;;;;;;;;;
+20;INEA;999;999;INEA Mobile;No Limit 500 GB FREE;500;100;23.26 GB w roamingu w UE;cena z rabatami;1;999;80;;;;;;;;;
+21;IWKD;24;24;Abonament komórkowy;MINI;20;21;;;1;24;19.9;;;;;;;;;
+22;IWKD;24;24;Abonament komórkowy;STANDARD;40;31;;;1;24;29.9;;;;;;;;;
+23;IWKD;24;24;Abonament komórkowy;OPTIMA;60;31;;;1;24;34.9;;;;;;;;;
+24;IWKD;24;24;Abonament komórkowy;ULTRA;120;100;;;1;24;44.9;;;;;;;;;
+25;JIM-SAT;999;999;Abonament komórkowy;Znakomita 5G;5;7;SMS za 0.19 z³;cena z rabatem za e-fakturê;1;999;12.99;;;;;;;;;
+26;JIM-SAT;999;999;Abonament komórkowy;Doskona³a 5G;20;21;;cena z rabatem za e-fakturê;1;999;17.99;;;;;;;;;
+27;JIM-SAT;999;999;Abonament komórkowy;Idealna 5G;50;31;;cena z rabatem za e-fakturê;1;999;24.99;;;;;;;;;
+28;JIM-SAT;999;999;Abonament komórkowy;Mega 5G;100;100;;cena z rabatem za e-fakturê;1;999;34.99;;;;;;;;;
+29;JMDI;24;24;Abonament komórkowy;Plan Junior;2;7;;cena z rabatami;1;24;19.9;;;;;;;;;
+30;JMDI;24;24;Abonament komórkowy;Plan Multi 10;10;11;;cena z rabatami;1;24;29.9;;;;;;;;;
+31;JMDI;24;24;Abonament komórkowy;Plan Multi 20;20;21;;cena z rabatami;1;24;44.9;;;;;;;;;
+32;JPK;24;24;Pakiety komórkowe;Abonament komórkowy;2;7;;;1;24;9.99;;;;;;;;;
+33;JPK;24;24;Pakiety komórkowe;Abonament komórkowy;5;7;;;1;24;14.99;;;;;;;;;
+34;JPK;24;24;Pakiety komórkowe;Abonament komórkowy;10;11;;;1;24;19.99;;;;;;;;;
+35;JPK;24;24;Pakiety komórkowe;Abonament komórkowy;25;21;;;1;24;25.99;;;;;;;;;
+36;JPK;24;24;Pakiety komórkowe;Abonament komórkowy;50;31;;;1;24;35.99;;;;;;;;;
+37;JPK;24;24;Pakiety komórkowe;Abonament komórkowy;100;100;;;1;24;45.99;;;;;;;;;
+38;JPK;24;24;Pakiety komórkowe;Abonament komórkowy;200;100;;;1;24;55.99;;;;;;;;;
+39;JPK;24;24;Pakiety komórkowe;Abonament komórkowy;300;100;;;1;24;63.99;;;;;;;;;
+40;JPK;24;24;Pakiety komórkowe;Abonament komórkowy;500;100;;;1;24;77.99;;;;;;;;;
+41;MC1_KWIDZYN;24;24;Promocja 4 miesi¹ce za 1 z³;Abonament komórkowy;10;11;;cena z rabatem za e-fakturê;1;4;1;5;24;24.98;;;;;;
+42;MC1_KWIDZYN;24;24;multiMOBILNY;Abonament komórkowy;10;11;;cena z rabatem za e-fakturê;1;24;22.98;;;;;;;;;
+43;MC1_KWIDZYN;999;999;multiMOBILNY;Abonament komórkowy;10;11;;cena z rabatem za e-fakturê;1;999;24.98;;;;;;;;;
+44;MC1_KWIDZYN;24;24;Promocja 4 miesi¹ce za 1 z³;Abonament komórkowy;30;31;;cena z rabatem za e-fakturê;1;4;1;5;24;34.98;;;;;;
+45;MC1_KWIDZYN;24;24;multiMOBILNY;Abonament komórkowy;30;31;;cena z rabatem za e-fakturê;1;24;32.97;;;;;;;;;
+46;MC1_KWIDZYN;999;999;multiMOBILNY;Abonament komórkowy;30;31;;cena z rabatem za e-fakturê;1;999;34.98;;;;;;;;;
+47;MC1_KWIDZYN;24;24;Promocja 4 miesi¹ce za 1 z³;Abonament komórkowy;60;31;;cena z rabatem za e-fakturê;1;4;1;5;24;44.98;;;;;;
+48;MC1_KWIDZYN;24;24;multiMOBILNY;Abonament komórkowy;60;31;;cena z rabatem za e-fakturê;1;24;42.97;;;;;;;;;
+49;MC1_KWIDZYN;999;999;multiMOBILNY;Abonament komórkowy;60;31;;cena z rabatem za e-fakturê;1;999;44.98;;;;;;;;;
+50;MC1_LOWICZ;24;24;Promocja 4 miesi¹ce za 1 z³;Abonament komórkowy;10;11;;cena z rabatem za e-fakturê;1;4;1;5;24;24.98;;;;;;
+51;MC1_LOWICZ;24;24;multiMOBILNY;Abonament komórkowy;10;11;;cena z rabatem za e-fakturê;1;24;22.98;;;;;;;;;
+52;MC1_LOWICZ;999;999;multiMOBILNY;Abonament komórkowy;10;11;;cena z rabatem za e-fakturê;1;999;24.98;;;;;;;;;
+53;MC1_LOWICZ;24;24;Promocja 4 miesi¹ce za 1 z³;Abonament komórkowy;30;31;;cena z rabatem za e-fakturê;1;4;1;5;24;34.98;;;;;;
+54;MC1_LOWICZ;24;24;multiMOBILNY;Abonament komórkowy;30;31;;cena z rabatem za e-fakturê;1;24;32.97;;;;;;;;;
+55;MC1_LOWICZ;999;999;multiMOBILNY;Abonament komórkowy;30;31;;cena z rabatem za e-fakturê;1;999;34.98;;;;;;;;;
+56;MC1_LOWICZ;24;24;Promocja 4 miesi¹ce za 1 z³;Abonament komórkowy;60;31;;cena z rabatem za e-fakturê;1;4;1;5;24;44.98;;;;;;
+57;MC1_LOWICZ;24;24;multiMOBILNY;Abonament komórkowy;60;31;;cena z rabatem za e-fakturê;1;24;42.97;;;;;;;;;
+58;MC1_LOWICZ;999;999;multiMOBILNY;Abonament komórkowy;60;31;;cena z rabatem za e-fakturê;1;999;44.98;;;;;;;;;
+59;MC1_OLSZTYN;24;24;Promocja 4 miesi¹ce za 1 z³;Abonament komórkowy;10;11;;cena z rabatem za e-fakturê;1;4;1;5;24;24.98;;;;;;
+60;MC1_OLSZTYN;24;24;multiMOBILNY;Abonament komórkowy;10;11;;cena z rabatem za e-fakturê;1;24;22.98;;;;;;;;;
+61;MC1_OLSZTYN;999;999;multiMOBILNY;Abonament komórkowy;10;11;;cena z rabatem za e-fakturê;1;999;24.98;;;;;;;;;
+62;MC1_OLSZTYN;24;24;Promocja 4 miesi¹ce za 1 z³;Abonament komórkowy;30;31;;cena z rabatem za e-fakturê;1;4;1;5;24;34.98;;;;;;
+63;MC1_OLSZTYN;24;24;multiMOBILNY;Abonament komórkowy;30;31;;cena z rabatem za e-fakturê;1;24;32.97;;;;;;;;;
+64;MC1_OLSZTYN;999;999;multiMOBILNY;Abonament komórkowy;30;31;;cena z rabatem za e-fakturê;1;999;34.98;;;;;;;;;
+65;MC1_OLSZTYN;24;24;Promocja 4 miesi¹ce za 1 z³;Abonament komórkowy;60;31;;cena z rabatem za e-fakturê;1;4;1;5;24;44.98;;;;;;
+66;MC1_OLSZTYN;24;24;multiMOBILNY;Abonament komórkowy;60;31;;cena z rabatem za e-fakturê;1;24;42.97;;;;;;;;;
+67;MC1_OLSZTYN;999;999;multiMOBILNY;Abonament komórkowy;60;31;;cena z rabatem za e-fakturê;1;999;44.98;;;;;;;;;
+68;MC1_OSTRODA;24;24;Promocja 4 miesi¹ce za 1 z³;Abonament komórkowy;10;11;;cena z rabatem za e-fakturê;1;4;1;5;24;24.98;;;;;;
+69;MC1_OSTRODA;24;24;multiMOBILNY;Abonament komórkowy;10;11;;cena z rabatem za e-fakturê;1;24;22.98;;;;;;;;;
+70;MC1_OSTRODA;999;999;multiMOBILNY;Abonament komórkowy;10;11;;cena z rabatem za e-fakturê;1;999;24.98;;;;;;;;;
+71;MC1_OSTRODA;24;24;Promocja 4 miesi¹ce za 1 z³;Abonament komórkowy;30;31;;cena z rabatem za e-fakturê;1;4;1;5;24;34.98;;;;;;
+72;MC1_OSTRODA;24;24;multiMOBILNY;Abonament komórkowy;30;31;;cena z rabatem za e-fakturê;1;24;32.97;;;;;;;;;
+73;MC1_OSTRODA;999;999;multiMOBILNY;Abonament komórkowy;30;31;;cena z rabatem za e-fakturê;1;999;34.98;;;;;;;;;
+74;MC1_OSTRODA;24;24;Promocja 4 miesi¹ce za 1 z³;Abonament komórkowy;60;31;;cena z rabatem za e-fakturê;1;4;1;5;24;44.98;;;;;;
+75;MC1_OSTRODA;24;24;multiMOBILNY;Abonament komórkowy;60;31;;cena z rabatem za e-fakturê;1;24;42.97;;;;;;;;;
+76;MC1_OSTRODA;999;999;multiMOBILNY;Abonament komórkowy;60;31;;cena z rabatem za e-fakturê;1;999;44.98;;;;;;;;;
+77;MC1_STARGARD;24;24;Promocja 4 miesi¹ce za 1 z³;Abonament komórkowy;10;11;;cena z rabatem za e-fakturê;1;4;1;5;24;24.98;;;;;;
+78;MC1_STARGARD;24;24;multiMOBILNY;Abonament komórkowy;10;11;;cena z rabatem za e-fakturê;1;24;22.98;;;;;;;;;
+79;MC1_STARGARD;999;999;multiMOBILNY;Abonament komórkowy;10;11;;cena z rabatem za e-fakturê;1;999;24.98;;;;;;;;;
+80;MC1_STARGARD;24;24;Promocja 4 miesi¹ce za 1 z³;Abonament komórkowy;30;31;;cena z rabatem za e-fakturê;1;4;1;5;24;34.98;;;;;;
+81;MC1_STARGARD;24;24;multiMOBILNY;Abonament komórkowy;30;31;;cena z rabatem za e-fakturê;1;24;32.97;;;;;;;;;
+82;MC1_STARGARD;999;999;multiMOBILNY;Abonament komórkowy;30;31;;cena z rabatem za e-fakturê;1;999;34.98;;;;;;;;;
+83;MC1_STARGARD;24;24;Promocja 4 miesi¹ce za 1 z³;Abonament komórkowy;60;31;;cena z rabatem za e-fakturê;1;4;1;5;24;44.98;;;;;;
+84;MC1_STARGARD;24;24;multiMOBILNY;Abonament komórkowy;60;31;;cena z rabatem za e-fakturê;1;24;42.97;;;;;;;;;
+85;MC1_STARGARD;999;999;multiMOBILNY;Abonament komórkowy;60;31;;cena z rabatem za e-fakturê;1;999;44.98;;;;;;;;;
+86;MC2;24;24;FON Mobil;FON Senior;0;7;;cena z rabatem za e-fakturê;1;24;32.48;;;;;;;;;
+87;MC2;24;24;FON Mobil;FON EURO;7;7;1 GB w roamingu;cena z rabatem za e-fakturê;1;24;62.48;;;;;;;;;
+88;MC2;24;24;FON Mobil;FON NORMALNY+;21;21;;cena z rabatem za e-fakturê;1;24;36.57;;;;;;;;;
+89;MC2;24;24;FON Mobil;FON NORMALNY+;31;31;;cena z rabatem za e-fakturê;1;24;42.57;;;;;;;;;
+90;MC2;24;24;FON Mobil;FON NORMALNY;100;100;;cena z rabatem za e-fakturê;1;24;62.57;;;;;;;;;
+91;MPCNET;999;999;Abonament komórkowy;No Limit;0;7;;;1;999;15;;;;;;;;;
+92;MPCNET;999;999;Abonament komórkowy;No Limit;2;7;;;1;999;25;;;;;;;;;
+93;MPCNET;999;999;Abonament komórkowy;No Limit;5;7;;;1;999;30;;;;;;;;;
+94;MPCNET;999;999;Abonament komórkowy;No Limit;10;11;;;1;999;35;;;;;;;;;
+95;MPCNET;999;999;Abonament komórkowy;No Limit;25;21;;;1;999;40;;;;;;;;;
+96;MPCNET;999;999;Abonament komórkowy;No Limit;50;31;;;1;999;45;;;;;;;;;
+97;MPCNET;999;999;Abonament komórkowy;No Limit;100;100;;;1;999;55;;;;;;;;;
+98;MPCNET;999;999;Abonament komórkowy;No Limit;200;100;;;1;999;65;;;;;;;;;
+100;NETIA;24;24;Przeniesienie numeru dla nowych;Super 5G;60;31;;cena z rabatami;1;3;1;4;24;55;;;;;;
+101;NETIA;24;24;Nowy numer dla obecnych;Super 5G;60;31;;cena z rabatami;1;24;30;;;;;;;;;
+102;NETIA;24;24;Przeniesienie numeru dla obecnych;Super 5G;60;31;;cena z rabatami;1;3;1;4;24;30;;;;;;
+103;NETIA;24;24;Nowy numer dla nowych;VIP 5G;100;100;;cena z rabatami;1;24;65;;;;;;;;;
+104;NETIA;24;24;Przeniesienie numeru dla nowych;VIP 5G;100;100;;cena z rabatami;1;3;1;4;24;65;;;;;;
+105;NETIA;24;24;Nowy numer dla obecnych;VIP 5G;100;100;;cena z rabatami;1;24;40;;;;;;;;;
+106;NETIA;24;24;Przeniesienie numeru dla obecnych;VIP 5G;100;100;;cena z rabatami;1;3;1;4;24;40;;;;;;
+107;NETIA;24;24;Nowy numer dla nowych;Bez limitu GB 5G;9999;999;;cena z rabatami;1;24;85;;;;;;;;;
+108;NETIA;24;24;Przeniesienie numeru dla nowych;Bez limitu GB 5G;9999;999;;cena z rabatami;1;3;1;4;24;85;;;;;;
+109;NETIA;24;24;Nowy numer dla obecnych;Bez limitu GB 5G;9999;999;;cena z rabatami;1;24;60;;;;;;;;;
+110;NETIA;24;24;Przeniesienie numeru dla obecnych;Bez limitu GB 5G;9999;999;;cena z rabatami;1;3;1;4;24;60;;;;;;
+99;NETIA;24;24;Nowy numer dla nowych;Super 5G;60;31;;cena z rabatami;1;24;55;;;;;;;;;
+111;NORTIS;24;24;Abonament komórkowy;Mini;7;11;;;1;24;19.90;;;;;;;;;
+112;NORTIS;24;24;Abonament komórkowy;Standard;40;31;;;1;24;24.9;;;;;;;;;
+113;NORTIS;24;24;Abonament komórkowy;Optima;60;31;;;1;24;29.9;;;;;;;;;
+114;NORTIS;24;24;Abonament komórkowy;Ultra;120;100;;;1;24;39.9;;;;;;;;;
+115;ORANGE;24;24;Abonament komórkowy;Plan XS;20;21;;cena z rabatami;1;2;0;3;24;45;;;;;;
+116;ORANGE;999;999;Subskrypcja;Orange flex;75;100;1 dodatkowa karta SIM/eSIM. 12.03 GB w roamingu w UE;cena z rabatami;1;999;35;0;;;;;;;;
+117;ORANGE;999;999;Subskrypcja;Orange flex;150;100;2 dodatkowe karty SIM/eSIM. 17.18 GB w roamingu w UE;cena z rabatami;1;999;50;;;;;;;;;
+118;ORANGE;24;24;Abonament komórkowy;Plan S;150;100;Orange TV Go;cena z rabatami;1;2;0;3;24;70;;;;;;
+119;ORANGE;24;24;Abonament komórkowy;Plan M;500;100;Orange TV Go;cena z rabatami;1;3;80;4;24;80;;;;;;
+120;ORANGE;999;999;Subskrypcja;Orange flex;9999;999;3 dodatkowe karty SIM/eSIM. 27.49 GB w roamingu w UE;cena z rabatami;1;999;80;;;;;;;;;
+121;ORANGE;24;24;Abonament komórkowy;Plan L;9999;999;Orange TV Go;cena z rabatami;1;12;50;13;24;100;;;;;;
+122;PLASTCOM;24;24;Abonament komórkowy;Mini;20;21;;;1;24;19.9;;;;;;;;;
+123;PLASTCOM;24;24;Abonament komórkowy;Standard;40;31;;;1;24;24.9;;;;;;;;;
+124;PLASTCOM;24;24;Abonament komórkowy;Optima;60;31;;;1;24;29.9;;;;;;;;;
+125;PLASTCOM;24;24;Abonament komórkowy;Ultra;120;100;;;1;24;39.9;;;;;;;;;
+126;PLAY;24;24;2+1(bez sms) = 2*45+30(sam internet)=120;Oferta HOMEBOX;120;100;;cena z rabatami;1;24;40;;;;;;;;;
+127;PLAY;24;24;2  w cenie 1;Oferta L;999;999;;cena z rabatami;1;24;45;;;;;;;;;
+128;PLAY;24;24;Abonament komórkowy;Oferta S;15;11;;cena z rabatami;1;24;45;;;;;;;;;
+129;PLAY;24;24;Abonament komórkowy;Oferta S+;50;31;;cena z rabatami;1;3;0;4;24;70;;;;;;
+130;PLAY;24;24;Abonament komórkowy;Oferta M;300;100;;cena z rabatami;1;24;80;;;;;;;;;
+131;PLAY;24;24;Abonament komórkowy;Oferta L;9999;999;;cena z rabatami;1;24;100;;;;;;;;;
+132;PLAY;24;24;Abonament komórkowy;Oferta HOMEBOX;9999;999;1 dodatkowa karta SIM;cena z rabatami;1;24;130;;;;;;;;;
+133;PLUS;24;24;Abonament komórkowy;Oferta S;6;7;13.78 GB w roamingu w UE;cena z rabatami;1;24;40;;;;;;;;;
+134;PLUS;24;24;Abonament komórkowy;Ofert M;60;31;20.61 GB w roamingu w UE;cena z rabatami;1;24;60;;;;;;;;;
+135;PLUS;24;24;2 w cenie 1(2*180GB). 2*40z³;Oferta L;360;999;20.61 GB w roamingu w UE;cena z rabatami;1;24;40;;;;;;;;;
+136;SINUSNET;24;24;Sinus Mobile;Pakiet 2;2;7;;;1;24;14.99;;;;;;;;;
+137;SINUSNET;24;24;Sinus Mobile;Pakiet 5;5;7;;;1;24;20;;;;;;;;;
+138;SINUSNET;24;24;Sinus Mobile;Pakiet 10;10;11;;;1;24;25;;;;;;;;;
+139;SINUSNET;24;24;Sinus Mobile;Pakiet 25;25;21;;;1;24;35;;;;;;;;;
+140;SINUSNET;24;24;Sinus Mobile;Pakiet 50;50;31;;;1;24;45;;;;;;;;;
+141;SINUSNET;24;24;Sinus Mobile;Pakiet 100;100;100;;;1;24;55;;;;;;;;;
+142;SINUSNET;24;24;Sinus Mobile;Pakiet 200;200;100;;;1;24;67;;;;;;;;;
+143;SINUSNET;24;24;Sinus Mobile;Pakiet 300;300;100;;;1;24;80;;;;;;;;;
+144;SINUSNET;24;24;Sinus Mobile;Pakiet 500;500;100;;;1;24;90;;;;;;;;;
+145;T-MOBILE;24;24;2X SIM;Oferta Nielimitowana;9999;999;;PRZY ZAKUPIE 2;1;24;60;;;;;;;;;
+146;T-MOBILE;24;24;Abonament komórkowy;Oferta Nielimitowana;9999;999;;cena z rabatami;1;24;75;;;;;;;;;
+147;TRIPLEMEDIA;24;24;Abonament komórkowy;MINI;5;7;;;1;24;20;;;;;;;;;
+148;TRIPLEMEDIA;24;24;Abonament komórkowy;STANDARD;10;11;;;1;24;25;;;;;;;;;
+149;TRIPLEMEDIA;24;24;Abonament komórkowy;OPTIMA;25;21;;;1;24;35;;;;;;;;;
+150;TRIPLEMEDIA;24;24;Abonament komórkowy;ULTRA;50;31;;;1;24;45;;;;;;;;;
+151;TYGRYS;24;24;Abonament komórkowy;Mini;20;21;;;1;24;19.9;;;;;;;;;
+152;TYGRYS;24;24;Abonament komórkowy;Standard;40;31;;;1;24;24.9;;;;;;;;;
+153;TYGRYS;24;24;Abonament komórkowy;Optima;60;31;;;1;24;29.9;;;;;;;;;
+154;TYGRYS;24;24;Abonament komórkowy;Ultra;120;100;;;1;24;39.9;;;;;;;;;
+155;VECTRA;999;999;Abonament komórkowy;Plan S;10;11;;cena z rabatami;1;1;19.99;2;12;15;13;24;20;25;999;25
+156;VECTRA;23;24;Dla przenosz¹cych numer;Plan M;60;31;;cena z rabatami;1;6;0;7;23;35;;;;;;
+157;VECTRA;999;999;Abonament komórkowy;Plan M;60;31;;cena z rabatami;1;1;29.99;2;12;35;13;24;40;25;999;45
+158;VECTRA;23;24;Dla przenosz¹cych numer;Plan L;100;100;;cena z rabatami;1;6;0;7;23;45;;;;;;
+159;VECTRA;999;999;Abonament komórkowy;Plan L;100;100;;cena z rabatami;1;1;34.99;2;12;45;13;24;50;25;999;55
+160;VECTRA;23;24;Dla przenosz¹cych numer;Plan XL;200;100;;cena z rabatami;1;6;0;7;23;75;;;;;;
+161;VECTRA;999;999;Abonament komórkowy;Plan XL;200;100;;cena z rabatami;1;1;44.99;2;12;65;13;24;70;25;999;75
+162;VECTRA;23;24;Dla przenosz¹cych numer;Plan Bez Limitu;999;999;;cena z rabatami;1;6;0;7;23;100;;;;;;
+163;VECTRA;999;999;Abonament komórkowy;Plan Bez Limitu;999;999;;cena z rabatami;1;1;44.99;2;12;100;13;24;105;25;999;110
